@@ -18,7 +18,7 @@ const tabs = [
         description:
           'PCI DSS compliance is a set of security regulations designed to protect credit card data. Professionals in this field ensure that organizations handling payment card information follow strict security measures to prevent data breaches and secure financial transactions.',
         imageSrc:
-          'https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-01.jpg',
+          'https://images.unsplash.com/photo-1633265486064-086b219458ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
         imageAlt:
           'PCI DSS compliance is a set of security regulations designed to protect credit card data. Professionals in this field ensure that organizations handling payment card information follow strict security measures to prevent data breaches and secure financial transactions.',
       },
@@ -32,7 +32,7 @@ const tabs = [
         description:
           'The NIST Framework is a comprehensive cybersecurity framework used to manage and improve organizational cybersecurity. Those pursuing careers in this field work with NIST guidelines to develop robust cybersecurity strategies, protect sensitive data, and defend against cyber threats.',
         imageSrc:
-          'https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-02.jpg',
+          'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
         imageAlt:
           'The NIST Framework is a comprehensive cybersecurity framework used to manage and improve organizational cybersecurity. Those pursuing careers in this field work with NIST guidelines to develop robust cybersecurity strategies, protect sensitive data, and defend against cyber threats.',
       },
@@ -46,7 +46,7 @@ const tabs = [
         description:
           'SOX (Sarbanes-Oxley) compliance is a regulatory framework that ensures the accuracy and reliability of financial reporting within publicly traded companies. Professionals in this field help organizations adhere to strict financial control and reporting standards to maintain transparency and accountability in financial operations.',
         imageSrc:
-          'https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-03.jpg',
+          'https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80',
         imageAlt:
           'SOX (Sarbanes-Oxley) compliance is a regulatory framework that ensures the accuracy and reliability of financial reporting within publicly traded companies. Professionals in this field help organizations adhere to strict financial control and reporting standards to maintain transparency and accountability in financial operations.',
       },
@@ -60,9 +60,9 @@ const tabs = [
         description:
           'PCI DSS is applicable to every entity involved in processing, storing, or transmitting cardholder data such as merchants, acquires, issuers, processors, and service providers. Therefore any organisation/enterprise involved in the processing, storing, or transmitting of cardholder data are required to be PCI DSS compliant. Adherence to the PCI DSS standards is enforced and regulated by payment brands.',
         imageSrc:
-          'https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-04.jpg',
+          'https://images.unsplash.com/photo-1613243555988-441166d4d6fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
         imageAlt:
-          'Walnut organizer system on black leather desk mat on top of white desk.',
+          'PCI DSS is applicable to every entity involved in processing, storing, or transmitting cardholder data such as merchants, acquires, issuers, processors, and service providers. Therefore any organisation/enterprise involved in the processing, storing, or transmitting of cardholder data are required to be PCI DSS compliant. Adherence to the PCI DSS standards is enforced and regulated by payment brands.',
       },
     ],
   },
@@ -80,13 +80,10 @@ export function CourseStructure() {
     >
       <div className="max-w-2xl px-4 mx-auto lg:max-w-none lg:px-0">
         <div className="max-w-3xl">
-          <h2
-            id="features-heading"
-            className=""
-          >
+          <h2 id="features-heading" className="">
             Course Structure
           </h2>
-          <p className="mt-4 text-slate-500">
+          <p className="mt-4 text-slate-500 dark:text-slate-200">
             The Organize modular system offers endless options for arranging
             your favorite and most used items. Keep everything at reach and in
             its place, while dressing up your workspace.
@@ -104,7 +101,7 @@ export function CourseStructure() {
                       classNames(
                         selected
                           ? 'border-blue-500 text-blue-600'
-                          : 'border-transparent text-slate-500 hover:border-slate-300 hover:text-slate-700',
+                          : 'border-transparent text-slate-500  hover:border-slate-300 hover:text-green-600 dark:text-slate-400',
                         'whitespace-nowrap border-b-2 py-6 text-sm font-medium'
                       )
                     }
@@ -125,10 +122,10 @@ export function CourseStructure() {
                     className="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8"
                   >
                     <div className="mt-6 lg:col-span-5 lg:mt-0">
-                      <h3 className="text-lg font-medium text-slate-900">
+                      <h3 className="text-lg font-medium text-slate-900 dark:text-slate-100 md:text-xl lg:text-2xl">
                         {feature.name}
                       </h3>
-                      <p className="mt-2 text-sm text-slate-500">
+                      <p className="mt-2 text-sm font-normal text-slate-500 dark:text-slate-200">
                         {feature.description}
                       </p>
                     </div>
