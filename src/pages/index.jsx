@@ -38,6 +38,7 @@ import { Testimonial } from '@/components/Testimonial'
 import { PlanVision } from '@/components/PlanVision'
 import { AboutUs } from '@/components/AboutUs'
 import { VideoTestimonials } from '@/components/VideoTestimonials'
+import { Employers } from '@/components/Employers'
 function MailIcon(props) {
   return (
     <svg
@@ -271,9 +272,7 @@ export default function Home({ articles, products }) {
       <OurServices />
       <CourseStructure />
       <HomeCTA />
-
       <PlanVision />
-
       <VideoTestimonials />
       <Testimonial />
       <AboutUs />

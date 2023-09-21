@@ -4,12 +4,12 @@ import { Fragment } from 'react'
 import { Tab } from '@headlessui/react'
 
 const featuredTestimonial = {
-  body: 'Integer id nunc sit semper purus. Bibendum at lacus ut arcu blandit montes vitae auctor libero. Hac condimentum dignissim nibh vulputate ut nunc. Amet nibh orci mi venenatis blandit vel et proin. Non hendrerit in vel ac diam.',
+  body: 'Trust John. Trust Learncyba and watch the change and transformation that will come into your life. His dedication, passion and continuous support got me here...Guys do not wait any longer run to John of Learncyba.',
   author: {
-    name: 'Brenna Goyette',
-    handle: 'brennagoyette',
+    name: 'Ted',
+    handle: 'Cyber Security Compliance',
     imageUrl:
-      'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=1024&h=1024&q=80',
+      'https://images.unsplash.com/photo-1614890094520-7b8dd0ec56d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=1024&h=1024&q=80',
     logoUrl: 'https://tailwindui.com/img/logos/savvycal-logo-slate-900.svg',
   },
 }
@@ -17,24 +17,24 @@ const testimonials = [
   [
     [
       {
-        body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
+        body: 'This course is amazing. John teaches you everything you need to know and gives amazing ongoing support even after the course is finished. I recommend to anyone.',
         author: {
-          name: 'Brandon',
-          handle: 'brandon',
+          name: 'Brad Chadson',
+          handle: 'INFOSEC Compliance Specialist',
           imageUrl:
-            'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            'https://images.unsplash.com/photo-1579983926774-399a9cb765c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
         },
       },
       // More testimonials...
     ],
     [
       {
-        body: 'Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam ut officia rem nulla blanditiis.',
+        body: 'If you are looking for a career path in cyber security, LEARNCYBA is the training school you need. The staff is professional, and they will make sure you succeed.',
         author: {
-          name: 'Rukky',
-          handle: 'rukky',
+          name: 'Almoctar Djibo',
+          handle: 'PCI-DSS Compliance Analyst',
           imageUrl:
-            'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            'https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
         },
       },
       // More testimonials...
@@ -43,24 +43,24 @@ const testimonials = [
   [
     [
       {
-        body: 'Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis repudiandae. Earum deserunt enim molestiae ipsum perferendis recusandae saepe corrupti.',
+        body: 'Excellent and very thorough in their trainings. I highly recommend Learncyba.',
         author: {
-          name: 'Ted',
-          handle: 'tomcook',
+          name: 'Life With Monighs',
+          handle: 'Security Compliance Manager',
           imageUrl:
-            'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            'https://images.unsplash.com/photo-1611432579402-7037e3e2c1e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
         },
       },
       // More testimonials...
     ],
     [
       {
-        body: 'Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit incidunt excepturi rerum voluptatem minus harum.',
+        body: 'Amazing customer service. I’m so grateful I found John and his staff',
         author: {
-          name: 'Ufuoma',
-          handle: 'leonardkrasner',
+          name: 'Love Jones',
+          handle: 'IT Security-Compliance Controls Assessor',
           imageUrl:
-            'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+            'https://images.unsplash.com/photo-1507152832244-10d45c7eda57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
         },
       },
       // More testimonials...
@@ -105,10 +105,8 @@ export function Testimonial() {
           </div>
           <div className="px-6 mx-auto max-w-7xl lg:px-8">
             <div className="max-w-xl mx-auto text-center">
-              <h2 className="">
-                Testimonials
-              </h2>
-              <span className="mt-2 text-3xl font-semibold tracking-tight text-slate-700 sm:text-4xl dark:text-slate-100">
+              <h2 className="">Testimonials</h2>
+              <span className="mt-2 text-3xl font-semibold tracking-tight text-slate-700 dark:text-slate-100 sm:text-4xl">
                 We educate and transform careers.
               </span>
             </div>
@@ -127,7 +125,7 @@ export function Testimonial() {
                     <div className="font-semibold">
                       {featuredTestimonial.author.name}
                     </div>
-                    <div className="text-slate-600">{`@${featuredTestimonial.author.handle}`}</div>
+                    <div className="text-xs text-slate-600">{`@${featuredTestimonial.author.handle}`}</div>
                   </div>
                   <img
                     className="flex-none w-auto h-10"
@@ -171,7 +169,7 @@ export function Testimonial() {
                               <div className="font-semibold">
                                 {testimonial.author.name}
                               </div>
-                              <div className="text-slate-600">{`@${testimonial.author.handle}`}</div>
+                              <div className="tracking-tight text-xs font-[300] leading-tight text-slate-600">{`${testimonial.author.handle}`}</div>
                             </div>
                           </figcaption>
                         </figure>

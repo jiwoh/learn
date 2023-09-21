@@ -7,7 +7,7 @@ export function HomeVideoHero() {
     <section className="relative flex flex-col items-center justify-center h-screen -mt-24 text-center text-white">
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden ">
         <video
-          className="absolute object-cover min-w-full min-h-full mix-blend-multiply"
+          className="absolute object-cover min-w-full min-h-full "
           src="/videos/laptopuser.mp4"
           type="video/mp4"
           codecs="avc1.42E01E, mp4a.40.2"
@@ -16,7 +16,7 @@ export function HomeVideoHero() {
           loop
         ></video>
       </div>
-      <div className="absolute top-0 left-0 z-0 w-full h-full bg-neutral-950/50"></div>
+      <div className="absolute top-0 left-0 z-0 w-full h-full bg-neutral-950/75"></div>
 
       <div className="... z-10 z-10 mx-auto -mt-52 max-w-4xl space-y-4  px-2 py-32 text-center sm:py-8 md:space-x-6 md:px-0 lg:-mt-32 lg:space-y-8 lg:py-6">
         <h1 className="text-[min(14vw,4.5rem)] font-bold leading-none tracking-tight">

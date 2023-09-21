@@ -1,11 +1,11 @@
 import { Container } from '@/components/Container'
+import Image from 'next/image'
 import { Fragment } from 'react'
 import { Tab } from '@headlessui/react'
 import Link from 'next/link'
 import clsx from 'clsx'
 import { formatDate } from '@/lib/formatDate'
 import { Prose } from '@/components/Prose'
-import Image from 'next/legacy/image'
 import { Disclosure } from '@headlessui/react'
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
 import { InboxIcon, SparklesIcon } from '@heroicons/react/24/outline'
@@ -27,10 +27,10 @@ export function PlanVision() {
                   </span>
                 </div>
                 <div className="mt-6">
-                  <h2 className="... text-[min(14vw,4.0rem)] font-bold leading-none tracking-tight text-blue-700 ...  bg-gradient-to-br from-[#3B82F6] via-indigo-500 to-blue-700 bg-clip-text text-transparent">
+                  <h2 className="... ... bg-gradient-to-br from-[#3B82F6] via-indigo-500 to-blue-700 bg-clip-text  text-[min(14vw,4.0rem)] font-bold leading-none tracking-tight text-blue-700 text-transparent">
                     Our Plan
                   </h2>
-                  <p className="mt-4 text-lg text-slate-500">
+                  <p className="mt-4 text-lg text-slate-500 dark:text-slate-200">
                     Our plan is to give our students a proper training to become
                     the next generation cyber leaders.
                   </p>
@@ -47,10 +47,13 @@ export function PlanVision() {
               <div className="pt-6 mt-8 border-t border-slate-200">
                 <blockquote>
                   <div>
-                    <p className="text-base text-slate-500">
-                      &ldquo;Cras velit quis eros eget rhoncus lacus ultrices
-                      sed diam. Sit orci risus aenean curabitur donec aliquet.
-                      Mi venenatis in euismod ut.&rdquo;
+                    <p className="text-base text-slate-500 dark:text-slate-200">
+                      &ldquo;There is a plethora of information out there about
+                      PCI-DSS which can get you confused. Look no further,
+                      Learncyba provides a wealth of information that is concise
+                      and easy to digest. If you are serious about making that
+                      career change and landing a great job, this is
+                      it...&rdquo;
                     </p>
                   </div>
                   <footer className="mt-3">
@@ -58,12 +61,12 @@ export function PlanVision() {
                       <div className="flex-shrink-0">
                         <img
                           className="w-6 h-6 rounded-full"
-                          src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                          src="https://images.unsplash.com/photo-1556656246-55b8f3b895d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80"
                           alt=""
                         />
                       </div>
-                      <div className="text-base font-medium text-slate-700">
-                        Marcia Hill, Digital Marketing Manager
+                      <div className="text-base font-normal text-slate-700 dark:text-slate-200">
+                        Richard O., Qualified Security Assessor
                       </div>
                     </div>
                   </footer>
@@ -72,9 +75,11 @@ export function PlanVision() {
             </div>
             <div className="mt-12 sm:mt-16 lg:mt-0">
               <div className="pl-6 -mr-48 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-                <img
+                <Image
                   className="w-full shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
+                  src="https://images.unsplash.com/photo-1577760263010-ebfa5798337c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+                  width={1470}
+                  height={600}
                   alt="Inbox user interface"
                 />
               </div>
@@ -94,10 +99,10 @@ export function PlanVision() {
                   </span>
                 </div>
                 <div className="mt-6">
-                  <h2 className="... text-[min(14vw,4.0rem)] font-bold leading-none tracking-tight text-blue-700 ...  bg-gradient-to-br from-[#3B82F6] via-indigo-500 to-blue-700 bg-clip-text text-transparent">
+                  <h2 className="... ... bg-gradient-to-br from-[#3B82F6] via-indigo-500 to-blue-700 bg-clip-text  text-[min(14vw,4.0rem)] font-bold leading-none tracking-tight text-blue-700 text-transparent">
                     Our Vision
                   </h2>
-                  <p className="mt-4 text-lg text-slate-500">
+                  <p className="mt-4 text-lg text-slate-500 dark:text-slate-200">
                     Our Vision is striving to provide our students with the
                     highest quality information security education available
                     through our cybersecurity training program.
@@ -115,10 +120,12 @@ export function PlanVision() {
             </div>
             <div className="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
               <div className="pr-6 -ml-48 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-                <img
+                <Image
                   className="w-full shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
+                  src="https://images.unsplash.com/photo-1567641091594-71640a68f847?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
                   alt="Customer profile user interface"
+                  width={800}
+                  height={400}
                 />
               </div>
             </div>

@@ -45,7 +45,7 @@ export function AboutUs() {
         <div className="max-w-2xl px-4 py-24 mx-auto sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
           <div className="mx-auto max-w-7xl ">
             <h2 className="">About Us</h2>
-            <p className="max-w-4xl mt-4 text-slate-700">
+            <p className="max-w-4xl mt-4 text-slate-700 dark:text-slate-200">
               We are a risk-management cybersecurity consulting firm focused on
               helping organizations prevent data loss, system lock-ups before a
               cyber breach and provide training on cybersecurity that can give
@@ -68,10 +68,10 @@ export function AboutUs() {
                     'mt-6 lg:col-span-5 lg:row-start-1 lg:mt-0 xl:col-span-4'
                   )}
                 >
-                  <h3 className="text-lg font-medium text-slate-900 md:text-xl lg:text-2xl">
+                  <h3 className="text-lg font-medium text-slate-900 md:text-xl lg:text-2xl dark:text-slate-100">
                     {feature.name}
                   </h3>
-                  <p className="mt-2 text-sm text-slate-700">
+                  <p className="mt-2 text-sm text-slate-700 dark:text-slate-300">
                     {feature.description}
                   </p>
                 </div>
