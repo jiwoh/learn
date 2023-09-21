@@ -47,7 +47,7 @@ const Gallery = ({ categories }) => {
   return (
     <div className="overflow-hidden">
       <Head>
-        <title>Gallery - RealMush</title>
+        <title>Gallery - John Iwoh</title>
         <meta name="description" content="Create lasting memories" />
       </Head>
       {/* <Container className="relative mt-16 sm:mt-32">

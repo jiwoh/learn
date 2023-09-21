@@ -107,7 +107,7 @@ export function FromTheBlog() {
                           </h4>
                           <span
                             href={post.category.href}
-                            className="relative  rounded-full bg-gray-900/90 px-3 py-1.5 text-xs font-thin  text-white "
+                            className="relative  rounded-full bg-slate-900/90 px-3 py-1.5 text-xs font-thin  text-white "
                           >
                             {post.category}
                           </span>

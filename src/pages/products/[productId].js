@@ -13,7 +13,7 @@ export default function Product({ product }) {
   return (
     <div>
       <Head>
-        <title>{product.title} - RealMush</title>
+        <title>{product.title} - John Iwoh</title>
       </Head>
       <Container>
         <h2 id="products" className="sr-only">

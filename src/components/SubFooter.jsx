@@ -236,7 +236,7 @@ export function Footer() {
             ))}
           </div>
           <p className="mt-8 text-xs font-normal leading-5 text-zinc-700 dark:text-white md:order-1 md:mt-0">
-            &copy; {new Date().getFullYear()} RealMush &amp; Health. All Rights
+            &copy; {new Date().getFullYear()} John Iwoh &amp; Health. All Rights
             Reserved.
           </p>
         </div>

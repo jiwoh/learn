@@ -47,7 +47,7 @@ const navigation = {
           subtitle: 'Rep your squad with merchandise',
           href: '/products/category/merch',
           imageSrc: '/images/mainmenu/merch.webp',
-          imageAlt: 'RealMush Merchandise.',
+          imageAlt: 'John Iwoh Merchandise.',
         },
       ],
     },
@@ -165,22 +165,22 @@ export default function Example() {
                 leaveFrom="-translate-y-0"
                 leaveTo="translate-y-full"
               >
-                <Dialog.Panel className="relative flex flex-col w-full max-w-xs pb-12 overflow-y-auto bg-white shadow-xl dark:bg-zinc-900">
-                  <div className="flex px-4 pt-5 pb-2">
+                <Dialog.Panel className="relative flex w-full max-w-xs flex-col overflow-y-auto bg-white pb-12 shadow-xl dark:bg-zinc-900">
+                  <div className="flex px-4 pb-2 pt-5">
                     <button
                       type="button"
-                      className="inline-flex items-center justify-center p-2 -m-2 rounded-md text-zinc-400"
+                      className="-m-2 inline-flex items-center justify-center rounded-md p-2 text-zinc-400"
                       onClick={() => setOpen(false)}
                     >
                       <span className="sr-only">Close menu</span>
-                      <XMarkIcon className="w-6 h-6" aria-hidden="true" />
+                      <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                     </button>
                   </div>
 
                   {/* Links */}
                   <Tab.Group as="div" className="mt-2">
                     <div className="border-b border-zinc-200 dark:border-zinc-500">
-                      <Tab.List className="flex px-4 -mb-px space-x-8">
+                      <Tab.List className="-mb-px flex space-x-8 px-4">
                         {navigation.categories.map((category) => (
                           <Tab
                             key={category.name}
@@ -202,16 +202,16 @@ export default function Example() {
                       {navigation.categories.map((category) => (
                         <Tab.Panel
                           key={category.name}
-                          className="px-4 py-6 space-y-12"
+                          className="space-y-12 px-4 py-6"
                         >
                           <div className="grid grid-cols-2 gap-x-4 gap-y-10">
                             {category.featured.map((item) => (
                               <div
                                 key={item.name}
-                                className="relative group"
+                                className="group relative"
                                 onClick={() => setOpen(false)}
                               >
-                                <div className="overflow-hidden rounded-md aspect-h-1 aspect-w-1 bg-zinc-100 group-hover:opacity-75">
+                                <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-md bg-zinc-100 group-hover:opacity-75">
                                   <Image
                                     src={item.imageSrc}
                                     alt={item.imageAlt}
@@ -222,7 +222,7 @@ export default function Example() {
                                 </div>
                                 <Link
                                   href={item.href}
-                                  className="block mt-6 text-sm font-medium text-zinc-900 dark:text-zinc-200"
+                                  className="mt-6 block text-sm font-medium text-zinc-900 dark:text-zinc-200"
                                 >
                                   <span
                                     className="absolute inset-0 z-10"
@@ -244,7 +244,7 @@ export default function Example() {
                     </Tab.Panels>
                   </Tab.Group>
 
-                  <div className="px-4 py-6 space-y-6 border-t border-zinc-200 dark:border-zinc-500">
+                  <div className="space-y-6 border-t border-zinc-200 px-4 py-6 dark:border-zinc-500">
                     {navigation.pages.map((page) => (
                       <div
                         key={page.name}
@@ -253,7 +253,7 @@ export default function Example() {
                       >
                         <Link
                           href={page.href}
-                          className="block p-2 -m-2 font-medium text-zinc-900 dark:text-zinc-200"
+                          className="-m-2 block p-2 font-medium text-zinc-900 dark:text-zinc-200"
                         >
                           {page.name}
                         </Link>
@@ -270,9 +270,9 @@ export default function Example() {
           <nav aria-label="Top">
             {/* Secondary navigation */}
             <div className="bg-white dark:bg-zinc-900">
-              <div className="px-4 mx-auto max-w-7xl sm:px-6 md:px-8">
+              <div className="mx-auto max-w-7xl px-4 sm:px-6 md:px-8">
                 <div className="border-b border-zinc-200 dark:border-zinc-900">
-                  <div className="flex items-center justify-between h-14">
+                  <div className="flex h-14 items-center justify-between">
                     {/* Logo (lg+) */}
                     <div className="hidden md:flex md:flex-1 md:items-center">
                       <Link href="/">
@@ -280,34 +280,34 @@ export default function Example() {
                           <div>
                             <Image
                               src="/images/logos/logo.webp"
-                              alt="mobile logo RealMush"
+                              alt="mobile logo John Iwoh"
                               width="35"
                               height="35"
                               className="inline-block h-9 w-9"
                             />
                           </div>
                           <div className="ml-2">
-                            <span className="text-xl font-[200]  ... bg-gradient-to-r from-zinc-950 via-emerald-600 to-zinc-400 bg-clip-text text-transparent ... dark:bg-gradient-to-r dark:from-zinc-100 dark:via-emerald-400 dark:to-emerald-700 dark:bg-clip-text dark:text-transparent">
+                            <span className="... ...  bg-gradient-to-r from-zinc-950 via-emerald-600 to-zinc-400 bg-clip-text text-xl font-[200] text-transparent dark:bg-gradient-to-r dark:from-zinc-100 dark:via-emerald-400 dark:to-emerald-700 dark:bg-clip-text dark:text-transparent">
                               Real<strong>Mush</strong>.com
                             </span>
                           </div>
                         </div>
-                        <span className="sr-only">RealMush</span>
+                        <span className="sr-only">John Iwoh</span>
                       </Link>
                     </div>
 
                     <div className="hidden h-full md:flex">
                       {/* Flyout menus Desktop  */}
                       <Popover.Group className="inset-x-0 bottom-0 px-4">
-                        <div className="flex justify-center h-full space-x-12">
+                        <div className="flex h-full justify-center space-x-12">
                           {navigation.pages.map((page) => (
                             <Link
                               key={page.name}
                               href={page.href}
-                              className="flex items-center text-base font-medium transition-colors duration-200 ease-in-ease-out text-zinc-700 hover:scale-110 hover:text-emerald-600 dark:text-zinc-50 hover:dark:text-emerald-400"
+                              className="ease-in-ease-out flex items-center text-base font-medium text-zinc-700 transition-colors duration-200 hover:scale-110 hover:text-emerald-600 dark:text-zinc-50 hover:dark:text-emerald-400"
                             >
                               {page.icon && (
-                                <page.icon className="w-5 h-5 mr-2 text-emerald-600 hover:scale-125 dark:text-emerald-600" />
+                                <page.icon className="mr-2 h-5 w-5 text-emerald-600 hover:scale-125 dark:text-emerald-600" />
                               )}
                               {page.name}
                             </Link>
@@ -326,7 +326,7 @@ export default function Example() {
                                       )}
                                     >
                                       {category.icon && (
-                                        <category.icon className="w-5 h-5 mr-2 text-emerald-600 hover:scale-125 dark:text-emerald-600" />
+                                        <category.icon className="mr-2 h-5 w-5 text-emerald-600 hover:scale-125 dark:text-emerald-600" />
                                       )}
                                       {category.name}
                                     </Popover.Button>
@@ -341,14 +341,14 @@ export default function Example() {
                                     leaveFrom="opacity-100"
                                     leaveTo="opacity-0"
                                   >
-                                    <Popover.Panel className="absolute inset-x-0 z-50 text-sm top-full text-zinc-500">
+                                    <Popover.Panel className="absolute inset-x-0 top-full z-50 text-sm text-zinc-500">
                                       {/* Presentational element used to render the bottom shadow, if we put the shadow on the actual panel it pokes out the top, so we use this shorter element to hide the top of the shadow */}
                                       <div
                                         onClick={close}
                                         className="fixed inset-0 top-1/2 backdrop-blur"
                                       />
                                       <div
-                                        className="absolute inset-0 bg-white shadow top-1/2 dark:bg-zinc-900"
+                                        className="absolute inset-0 top-1/2 bg-white shadow dark:bg-zinc-900"
                                         aria-hidden="true"
                                       />
                                       {/* <Transition.Child
@@ -363,15 +363,15 @@ export default function Example() {
                                       {/* </Transition.Child> */}
 
                                       <div className="relative bg-white dark:bg-zinc-900">
-                                        <div className="px-8 mx-auto max-w-7xl">
-                                          <div className="grid grid-cols-4 py-16 gap-x-8 gap-y-10">
+                                        <div className="mx-auto max-w-7xl px-8">
+                                          <div className="grid grid-cols-4 gap-x-8 gap-y-10 py-16">
                                             {category.featured.map((item) => (
                                               <div
                                                 key={item.name}
-                                                className="relative group"
+                                                className="group relative"
                                                 onClick={close}
                                               >
-                                                <div className="overflow-hidden rounded-md aspect-h-1 aspect-w-1 bg-zinc-100 group-hover:opacity-75">
+                                                <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-md bg-zinc-100 group-hover:opacity-75">
                                                   <Image
                                                     src={item.imageSrc}
                                                     alt={item.imageAlt}
@@ -382,7 +382,7 @@ export default function Example() {
                                                 </div>
                                                 <Link
                                                   href={item.href}
-                                                  className="block mt-4 font-medium text-zinc-900 dark:text-zinc-200"
+                                                  className="mt-4 block font-medium text-zinc-900 dark:text-zinc-200"
                                                 >
                                                   <span
                                                     className="absolute inset-0 z-10"
@@ -412,49 +412,49 @@ export default function Example() {
                     </div>
 
                     {/* Mobile menu and search (lg-) */}
-                    <div className="flex items-center flex-1 md:hidden">
+                    <div className="flex flex-1 items-center md:hidden">
                       <button
                         type="button"
-                        className="p-2 -ml-2 bg-white rounded-md text-zinc-400 dark:border-emerald-600 dark:bg-neutral-900"
+                        className="-ml-2 rounded-md bg-white p-2 text-zinc-400 dark:border-emerald-600 dark:bg-neutral-900"
                         onClick={() => setOpen(true)}
                       >
                         <span className="sr-only">Open menu</span>
-                        <Bars3Icon className="w-6 h-6 " aria-hidden="true" />
+                        <Bars3Icon className="h-6 w-6 " aria-hidden="true" />
                       </button>
                     </div>
 
                     {/* Logo (lg-) */}
                     <Link href="/" className="md:hidden">
-                      <span className="sr-only">RealMush</span>
+                      <span className="sr-only">John Iwoh</span>
                       <Image
                         src="/images/_avatar.webp"
                         alt="mobile logo Real Mush"
                         width="40"
                         height="40"
-                        className="w-full h-full rounded-full"
+                        className="h-full w-full rounded-full"
                       />
                     </Link>
 
-                    <div className="flex items-center justify-end flex-1">
+                    <div className="flex flex-1 items-center justify-end">
                       <div className="flex items-center gap-4 lg:ml-8">
                         {/* Cart */}
-                        <div className="flow-root ml-4 lg:ml-8">
-                          <div className="flex items-center p-2 -m-2 cursor-pointer snipcart-checkout group:ease-in-ease-out group">
+                        <div className="ml-4 flow-root lg:ml-8">
+                          <div className="snipcart-checkout group:ease-in-ease-out group -m-2 flex cursor-pointer items-center p-2">
                             <ShoppingBagIcon
-                              className="flex-shrink-0 w-6 h-6 text-zinc-900 group-hover:scale-110 group-hover:text-emerald-600 dark:text-emerald-600"
+                              className="h-6 w-6 flex-shrink-0 text-zinc-900 group-hover:scale-110 group-hover:text-emerald-600 dark:text-emerald-600"
                               aria-hidden="true"
                             />
 
-                            <span className="ml-2 text-sm font-medium snipcart-items-count text-zinc-700 group-hover:text-zinc-800 dark:text-zinc-50 group-hover:dark:text-zinc-50"></span>
+                            <span className="snipcart-items-count ml-2 text-sm font-medium text-zinc-700 group-hover:text-zinc-800 dark:text-zinc-50 group-hover:dark:text-zinc-50"></span>
                             <span className="sr-only">
                               items in cart, view bag
                             </span>
                           </div>
                         </div>
                         {/* My account */}
-                        <div className="cursor-pointer snipcart-customer-signin ">
+                        <div className="snipcart-customer-signin cursor-pointer ">
                           <UserCircleIcon
-                            className="flex-shrink-0 w-6 h-6 ease-in-ease-out text-zinc-900 hover:scale-110 group-hover:text-emerald-600 dark:text-emerald-600"
+                            className="ease-in-ease-out h-6 w-6 flex-shrink-0 text-zinc-900 hover:scale-110 group-hover:text-emerald-600 dark:text-emerald-600"
                             aria-hidden="true"
                           />
                         </div>
@@ -470,7 +470,7 @@ export default function Example() {
       </div>
       {/* Mobile navbar with icons */}
       <div className="shadow-top fixed bottom-0 left-1/2 z-50 w-[100%] -translate-x-1/2  bg-white bg-opacity-70 p-2 px-4 ring-1 ring-neutral-200/60 backdrop-blur-lg backdrop-filter dark:bg-[#1d1c20] dark:bg-opacity-70 dark:ring-neutral-600/40 md:hidden">
-        <div className="flex items-center justify-between w-full gap-4">
+        <div className="flex w-full items-center justify-between gap-4">
           <div>
             <ModeToggle />
           </div>
@@ -592,7 +592,7 @@ function ModeToggle() {
     <button
       type="button"
       aria-label="Toggle dark mode"
-      className="px-2 py-1 transition rounded-full shadow-md group bg-white/90 shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-neutral-900 dark:ring-white/40 dark:hover:ring-white/20"
+      className="group rounded-full bg-white/90 px-2 py-1 shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-neutral-900 dark:ring-white/40 dark:hover:ring-white/20"
       onClick={toggleMode}
     >
       <SunIcon className="h-6 w-6 fill-zinc-100 stroke-zinc-500 transition group-hover:fill-zinc-200 group-hover:stroke-zinc-700 dark:hidden [@media(prefers-color-scheme:dark)]:fill-emerald-50 [@media(prefers-color-scheme:dark)]:stroke-emerald-500 [@media(prefers-color-scheme:dark)]:group-hover:fill-emerald-50 [@media(prefers-color-scheme:dark)]:group-hover:stroke-emerald-600" />

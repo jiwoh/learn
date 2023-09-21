@@ -176,7 +176,7 @@ export function RelatedProductList() {
                     ))}
                   </div>
                   <button
-                    className="... inline-flex items-center rounded-md border border-transparent bg-red-600  px-6 py-2 text-sm font-medium text-white shadow-sm transition duration-100 ease-in hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2   "
+                    className="... inline-flex items-center rounded-md border border-transparent bg-red-600  px-6 py-2 text-sm font-medium text-white shadow-sm transition duration-100 ease-in hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-slate-900 focus:ring-offset-2   "
                     onClick={() =>
                       handleAddToCart({
                         id: supplies.id,

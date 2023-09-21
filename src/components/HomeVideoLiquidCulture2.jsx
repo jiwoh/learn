@@ -47,8 +47,8 @@ export function HomeVideoLiquidCulture() {
   return (
     <Container>
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
-        <div className="h-32 rounded-lg bg-gray-100"></div>
-        <div className="h-32 rounded-lg bg-gray-100 lg:col-span-2"></div>
+        <div className="h-32 rounded-lg bg-slate-100"></div>
+        <div className="h-32 rounded-lg bg-slate-100 lg:col-span-2"></div>
       </div>
       <div className="py-24 sm:py-32">
         <div className="mx-auto max-w-7xl ">
@@ -60,7 +60,7 @@ export function HomeVideoLiquidCulture() {
               Mushroom Liquid Cultures
             </p>
             <p className="mt-6 text-lg leading-normal text-zinc-700 dark:text-zinc-200">
-              RealMush provides contaminant-free live fungi mushroom culture
+              John Iwoh provides contaminant-free live fungi mushroom culture
               syringes, carefully nurtured and tested for high quality. Our
               specially selected strains ensure abundant mushroom production in
               less time, maximizing your yield.

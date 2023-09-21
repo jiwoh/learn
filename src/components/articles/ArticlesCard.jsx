@@ -14,7 +14,7 @@ const ArticlesCard = ({ article }) => {
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw,33vw"
           className="absolute inset-0 h-full w-full rounded-2xl bg-neutral-50 object-cover"
         />
-        <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
+        <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-slate-900/10" />
       </div>
       <div>
         <div className="flex items-center gap-x-4 text-xs">

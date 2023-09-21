@@ -71,10 +71,10 @@ const Index = ({ products }) => {
 
   return (
     <div className="">
-      <div className="flex justify-center pb-4 mx-auto max-w-7xl md:pr-2">
+      <div className="mx-auto flex max-w-7xl justify-center pb-4 md:pr-2">
         <button
           onClick={() => setShowButton(!showButton)}
-          className="relative z-10 inline-flex items-center justify-center h-12 px-6 py-0 overflow-hidden text-base font-medium tracking-wide text-white transition-all duration-300 ease-in-out bg-blue-500 border-2 border-blue-500 border-solid rounded-md cursor-pointer select-none group outline-0 hover:text-blue-500 focus:text-blue-500"
+          className="group relative z-10 inline-flex h-12 cursor-pointer select-none items-center justify-center overflow-hidden rounded-md border-2 border-solid border-blue-500 bg-blue-500 px-6 py-0 text-base font-medium tracking-wide text-white outline-0 transition-all duration-300 ease-in-out hover:text-blue-500 focus:text-blue-500"
         >
           <FaPlusCircle
             className={`ml-1 fill-white ${
@@ -98,20 +98,20 @@ const Index = ({ products }) => {
       <div
         className={`${
           showButton ? 'block' : 'hidden'
-        } screen relative mx-auto h-[90%]  max-w-[1440px] rounded-2xl border-gray-500 bg-[#202020] py-6 transition-all duration-300 ease-in-out`}
+        } screen relative mx-auto h-[90%]  max-w-[1440px] rounded-2xl border-slate-500 bg-[#202020] py-6 transition-all duration-300 ease-in-out`}
       >
         <div className="flex justify-between">
           <div className="mx-12 my-6">
             <button onClick={() => setShowButton(false)}>
-              <RxCross2 className="p-2 text-4xl text-white bg-gray-700 rounded-full" />
+              <RxCross2 className="rounded-full bg-slate-700 p-2 text-4xl text-white" />
             </button>
           </div>
-          <div className="flex gap-2 mx-12 my-6">
+          <div className="mx-12 my-6 flex gap-2">
             <button onClick={handlePrevClick}>
-              <FaChevronCircleLeft className="p-2 text-4xl text-white bg-gray-700 rounded-full" />
+              <FaChevronCircleLeft className="rounded-full bg-slate-700 p-2 text-4xl text-white" />
             </button>
             <button onClick={handleNextClick}>
-              <FaCircleChevronRight className="p-2 text-4xl text-white bg-gray-700 rounded-full" />
+              <FaCircleChevronRight className="rounded-full bg-slate-700 p-2 text-4xl text-white" />
             </button>
           </div>
         </div>
@@ -121,7 +121,7 @@ const Index = ({ products }) => {
             {...swiperParams}
             // centeredSlides={3}
             spaceBetween={30}
-            className="h-full mySwiper "
+            className="mySwiper h-full "
             navigation={{
               prevEl: '.swiper-button-prev',
               nextEl: '.swiper-button-next',
@@ -140,7 +140,7 @@ const Index = ({ products }) => {
                         alt={product.alt}
                         width={300}
                         height={300}
-                        className="absolute inset-0 object-cover w-full h-full p-2 duration-300 transform opacity-100 group-hover:ease-in-ease-out group-hover:opacity-0 sm:object-contain"
+                        className="group-hover:ease-in-ease-out absolute inset-0 h-full w-full transform object-cover p-2 opacity-100 duration-300 group-hover:opacity-0 sm:object-contain"
                       />
                     </div>
                     <Image
@@ -148,15 +148,15 @@ const Index = ({ products }) => {
                       alt={product.alt}
                       width={300}
                       height={300}
-                      className="absolute inset-0 object-cover w-full h-full p-2 duration-300 opacity-0 group-hover:ease-in-ease-out rounded-xl group-hover:opacity-100"
+                      className="group-hover:ease-in-ease-out absolute inset-0 h-full w-full rounded-xl object-cover p-2 opacity-0 duration-300 group-hover:opacity-100"
                     />
                   </div>
-                  <div className="flex flex-col flex-1 w-full px-4 py-4 space-y-0 text-left sm:w-full ">
+                  <div className="flex w-full flex-1 flex-col space-y-0 px-4 py-4 text-left sm:w-full ">
                     <h4 className="inline-block text-[10px] font-[300] text-zinc-800 dark:text-amber-500 sm:text-xs">
                       <span aria-hidden="true" className="absolute inset-0" />
                       {product.category}
                     </h4>
-                    <h3 className="text-xl font-normal tracking-wide text-shadow text-zinc-800 hover:underline dark:text-amber-100 sm:font-bold sm:tracking-tight md:text-2xl">
+                    <h3 className="text-shadow text-xl font-normal tracking-wide text-zinc-800 hover:underline dark:text-amber-100 sm:font-bold sm:tracking-tight md:text-2xl">
                       <span aria-hidden="true" className="absolute inset-0" />
                       {product.title}
                     </h3>
@@ -176,7 +176,7 @@ const Index = ({ products }) => {
                           role="button"
                         >
                           <ShoppingCartIcon
-                            className="w-5 h-5 md:h-6 md:w-6"
+                            className="h-5 w-5 md:h-6 md:w-6"
                             aria-hidden="true"
                           />
                         </button>

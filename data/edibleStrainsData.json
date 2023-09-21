@@ -7,32 +7,110 @@
   "tableOfContents": {
     "title": "Table of Contents",
     "links": [
-      { "letter": "A", "link": "#A" },
-      { "letter": "B", "link": "#B" },
-      { "letter": "C", "link": "#C" },
-      { "letter": "D", "link": "#D" },
-      { "letter": "E", "link": "#E" },
-      { "letter": "F", "link": "#F" },
-      { "letter": "G", "link": "#G" },
-      { "letter": "H", "link": "#H" },
-      { "letter": "I", "link": "#I" },
-      { "letter": "J", "link": "#J" },
-      { "letter": "K", "link": "#K" },
-      { "letter": "L", "link": "#L" },
-      { "letter": "M", "link": "#M" },
-      { "letter": "N", "link": "#N" },
-      { "letter": "O", "link": "#O" },
-      { "letter": "P", "link": "#P" },
-      { "letter": "Q", "link": "#Q" },
-      { "letter": "R", "link": "#R" },
-      { "letter": "S", "link": "#S" },
-      { "letter": "T", "link": "#T" },
-      { "letter": "U", "link": "#U" },
-      { "letter": "V", "link": "#V" },
-      { "letter": "W", "link": "#W" },
-      { "letter": "X", "link": "#X" },
-      { "letter": "Y", "link": "#Y" },
-      { "letter": "Z", "link": "#Z" }
+      {
+        "letter": "A",
+        "link": "#A"
+      },
+      {
+        "letter": "B",
+        "link": "#B"
+      },
+      {
+        "letter": "C",
+        "link": "#C"
+      },
+      {
+        "letter": "D",
+        "link": "#D"
+      },
+      {
+        "letter": "E",
+        "link": "#E"
+      },
+      {
+        "letter": "F",
+        "link": "#F"
+      },
+      {
+        "letter": "G",
+        "link": "#G"
+      },
+      {
+        "letter": "H",
+        "link": "#H"
+      },
+      {
+        "letter": "I",
+        "link": "#I"
+      },
+      {
+        "letter": "J",
+        "link": "#J"
+      },
+      {
+        "letter": "K",
+        "link": "#K"
+      },
+      {
+        "letter": "L",
+        "link": "#L"
+      },
+      {
+        "letter": "M",
+        "link": "#M"
+      },
+      {
+        "letter": "N",
+        "link": "#N"
+      },
+      {
+        "letter": "O",
+        "link": "#O"
+      },
+      {
+        "letter": "P",
+        "link": "#P"
+      },
+      {
+        "letter": "Q",
+        "link": "#Q"
+      },
+      {
+        "letter": "R",
+        "link": "#R"
+      },
+      {
+        "letter": "S",
+        "link": "#S"
+      },
+      {
+        "letter": "T",
+        "link": "#T"
+      },
+      {
+        "letter": "U",
+        "link": "#U"
+      },
+      {
+        "letter": "V",
+        "link": "#V"
+      },
+      {
+        "letter": "W",
+        "link": "#W"
+      },
+      {
+        "letter": "X",
+        "link": "#X"
+      },
+      {
+        "letter": "Y",
+        "link": "#Y"
+      },
+      {
+        "letter": "Z",
+        "link": "#Z"
+      }
     ]
   },
   "glossary": [
@@ -191,7 +269,7 @@
       "Habitat": "Thrives in the dappled shade of mossy forests, decorating the base of towering birch trees and resting atop decaying logs and fallen leaves.",
       "Season": "Summer, fall",
       "Aroma": "Earthy, nutty, slightly sweet",
-      "Color": "Brown, tan, grayish-brown",
+      "Color": "Brown, tan, slateish-brown",
       "Flavor": "The flavor of Amanita fulva is earthy and nutty, with a hint of umami. It adds a unique depth of taste to any dish, making it a delightful choice for culinary exploration.",
       "CulinaryUses": "Used in soups, stews, and stir-fries, this mushroom strain adds a rich and earthy flavor to a variety of dishes.",
       "MedicalUses": "Known for its earthy aroma and nutty flavor, this mushroom strain should not be consumed raw due to its toxicity, but it does not have any known medicinal uses."
@@ -223,7 +301,7 @@
       "Habitat": "",
       "Season": "Summer, fall",
       "Aroma": "Earthy, woody, slightly fruity",
-      "Color": "Brown, white, black, gray.",
+      "Color": "Brown, white, black, slate.",
       "Flavor": "The flavor of Albatrellus confluens is earthy and nutty, with a hint of sweetness. It adds a rich and savory taste to dishes, making it a popular choice among mushroom enthusiasts.",
       "CulinaryUses": "Used in soups, stews, and stir-fries, Albatrellus confluens adds a rich and earthy flavor to dishes.",
       "MedicalUses": "Known for its anti-inflammatory properties, Albatrellus confluens is used in traditional medicine to treat arthritis and other inflammatory conditions."
@@ -543,7 +621,7 @@
       "Habitat": "",
       "Season": "Summer, autumn",
       "Aroma": "Earthy, woody, slightly nutty, aromatic",
-      "Color": "White, Brown, Yellow, Gray.",
+      "Color": "White, Brown, Yellow, slate.",
       "Flavor": "The flavor of Ampulloclitocybe clavipes is earthy and nutty, with a hint of sweetness. It adds a rich and savory taste to dishes, making it a delightful culinary ingredient.",
       "CulinaryUses": "Ampulloclitocybe clavipes is used in culinary dishes such as stir-fries, soups, and sautés.",
       "MedicalUses": "Known for its potential medicinal uses, Ampulloclitocybe clavipes has been studied for its anti-inflammatory and antioxidant properties."
@@ -603,7 +681,7 @@
       "CommonName": "Horse mushroom",
       "Introduction": "Agaricus arvensis, known as the Horse Mushroom, is highly prized for its exceptional culinary qualities and versatile uses.",
       "Body": "Agaricus arvensis, commonly known as the Horse Mushroom, is highly valued in culinary circles for its delicate aroma and mild, nutty flavor. Its versatility allows it to be used in various dishes, from soups to stir-fries. Additionally, it is believed to possess medicinal properties, aiding in digestion and boosting the immune system.",
-      "Appearance": "The majestic Agaricus arvensis, commonly known as the Horse Mushroom, graces the woodland floors with its elegant presence. Its cap dances with shades of creamy white, while its gills and stem stand strong in regal shades of gray. A delight for explorers, yet also prized for its culinary prowess, this graceful mushrooms offers both aesthetic beauty and gastronomic pleasure.",
+      "Appearance": "The majestic Agaricus arvensis, commonly known as the Horse Mushroom, graces the woodland floors with its elegant presence. Its cap dances with shades of creamy white, while its gills and stem stand strong in regal shades of slate. A delight for explorers, yet also prized for its culinary prowess, this graceful mushrooms offers both aesthetic beauty and gastronomic pleasure.",
       "Habitat": "",
       "Season": "Spring and summer.",
       "Aroma": "Earthy, nutty, slightly sweet",
@@ -811,11 +889,11 @@
       "CommonName": "Lead-colored puffball",
       "Introduction": "Bovista plumbea, commonly called Lead Puffball, is highly prized for its versatile culinary applications and medicinal properties.",
       "Body": "Bovista plumbea, commonly known as Lead Puffball, is valued for its culinary use. It has a mild, earthy aroma and a delicate flavor that pairs well with various dishes. Its functional use includes its potential medicinal properties, such as boosting the immune system.",
-      "Appearance": "The Bovista plumbea, commonly known as the Lead-colored Puffball, exhibits a mesmerizing silver-gray hue, akin to the metallic allure of moonlight. While not deemed culinary, its potential medicinal value remains a captivating mystery awaiting exploration.",
+      "Appearance": "The Bovista plumbea, commonly known as the Lead-colored Puffball, exhibits a mesmerizing silver-slate hue, akin to the metallic allure of moonlight. While not deemed culinary, its potential medicinal value remains a captivating mystery awaiting exploration.",
       "Habitat": "",
       "Season": "Fruits in spring and summer.",
       "Aroma": "Earthy, musty, pungent",
-      "Color": "Gray, lead-colored puffball",
+      "Color": "slate, lead-colored puffball",
       "Flavor": "The flavor of Bovista plumbea is mild and earthy, with subtle nutty undertones. It adds a delicate and unique taste to dishes, enhancing the overall culinary experience.",
       "CulinaryUses": "Used in soups, stews, and stir-fries, this mushroom strain adds a unique earthy flavor and a meaty texture to dishes.",
       "MedicalUses": "Known for its mild, earthy aroma and delicate flavor, Bovista plumbea is a culinary mushroom that pairs well with various dishes and may potentially boost the immune system with its medicinal properties."
@@ -888,14 +966,14 @@
       "Letter": "B",
       "ScientificName": "Boletopsis grisea",
       "Images": "/images/strains/boletopsis-grisea-1.webp",
-      "CommonName": "Gray bolete",
+      "CommonName": "slate bolete",
       "Introduction": "Boletopsis grisea, a prized mushroom with multiple uses, is valued for its culinary, medicinal, and functional properties.",
-      "Body": "Boletopsis grisea, commonly known as the Gray Boletopsis, is a versatile mushroom strain valued for its earthy aroma and robust flavor. It is highly sought after in culinary circles for its ability to add depth and richness to dishes. Additionally, it is believed to have potential medicinal properties, with some studies suggesting it may possess antioxidant and anti-inflammatory effects. With its unique combination of taste and potential health benefits, Boletopsis grise",
-      "Appearance": "The majestic Boletopsis grisea, adorned in subtle shades of gray, captivates with its elegant appearance. Although lacking in culinary or medical value, it gracefully adds beauty to the forest floor, a true testament to nature's diverse palette.",
+      "Body": "Boletopsis grisea, commonly known as the slate Boletopsis, is a versatile mushroom strain valued for its earthy aroma and robust flavor. It is highly sought after in culinary circles for its ability to add depth and richness to dishes. Additionally, it is believed to have potential medicinal properties, with some studies suggesting it may possess antioxidant and anti-inflammatory effects. With its unique combination of taste and potential health benefits, Boletopsis grise",
+      "Appearance": "The majestic Boletopsis grisea, adorned in subtle shades of slate, captivates with its elegant appearance. Although lacking in culinary or medical value, it gracefully adds beauty to the forest floor, a true testament to nature's diverse palette.",
       "Habitat": "",
       "Season": "Fruits in spring, summer, and fall.",
       "Aroma": "Earthy, musty, slightly sweet",
-      "Color": "Gray",
+      "Color": "slate",
       "Flavor": "The flavor of Boletopsis grisea is earthy and nutty, with a hint of sweetness. It adds a rich and savory taste to any dish, making it a delightful addition to various recipes.",
       "CulinaryUses": "Used in soups and stews, Boletopsis grisea adds a rich and earthy flavor to dishes.",
       "MedicalUses": "Known for its antimicrobial properties, Boletopsis grisea has been used in traditional medicine to treat infections and boost the immune system."
@@ -1167,7 +1245,7 @@
       "Habitat": "Thrives in a lush, moss-covered forest with towering everemerald trees, where it finds refuge on decaying logs and fallen branches.",
       "Season": "Origin: Fruits in spring, summer, and early fall.",
       "Aroma": "Earthy, nutty, slightly sweet, faintly fruity",
-      "Color": "White, Brown, Pink, Gray",
+      "Color": "White, Brown, Pink, slate",
       "Flavor": "The flavor of Clitopilus geminus is mild and earthy, with a hint of nuttiness. It adds a delightful depth of taste to any dish, making it a versatile and delicious mushroom strain.",
       "CulinaryUses": "This mushroom strain is commonly used in soups, stir-fries, and pasta dishes for its delicate flavor and meaty texture.",
       "MedicalUses": "Known for its potential medicinal uses, Clitopilus geminus has been studied for its antioxidant and antimicrobial properties."
@@ -1199,7 +1277,7 @@
       "Habitat": "Grows on decaying logs and stumps in dense forest areas, amidst a lush emerald undergrowth of ferns and mosses.",
       "Season": "Fruits in spring and autumn.",
       "Aroma": "Earthy, musty, slightly sweet",
-      "Color": "Black, white, gray",
+      "Color": "Black, white, slate",
       "Flavor": "The common name of Coprinopsis cinerea is the ink cap mushroom. It has a mild and earthy flavor, making it a versatile ingredient in various dishes.",
       "CulinaryUses": "Used in soups, stir-fries, and risottos, this mushroom strain adds a rich umami flavor and a unique texture to dishes.",
       "MedicalUses": "Known for its delicate aroma and earthy flavor, this versatile mushroom strain is highly valued in the culinary world for its functional use and potential medical benefits, including immune system boosting properties."
@@ -1231,7 +1309,7 @@
       "Habitat": "",
       "Season": "Spring, summer, and autumn.",
       "Aroma": "Earthy, musty, slightly sweet",
-      "Color": "Black, white, gray",
+      "Color": "Black, white, slate",
       "Flavor": "The common name of the Coprinopsis atramentaria mushroom strain is Inky Cap. It has a mild and earthy flavor with subtle notes of nuttiness, making it a versatile ingredient in various culinary dishes.",
       "CulinaryUses": "Used in soups, stir-fries, omelettes, and risottos, this mushroom strain adds a rich umami flavor and a unique texture to dishes.",
       "MedicalUses": "Medicinally, the mushroom strain has been used to treat alcoholism."
@@ -1279,7 +1357,7 @@
       "Habitat": "",
       "Season": "Fruits in autumn and winter.",
       "Aroma": "Earthy, nutty, slightly fruity",
-      "Color": "Purple, lilac, brownish-gray",
+      "Color": "Purple, lilac, brownish-slate",
       "Flavor": "The Wood Blewit mushroom strain has a delicate and nutty flavor, with hints of earthiness. It adds a unique and savory taste to dishes, making it a delightful addition to any culinary creation.",
       "CulinaryUses": "Used in soups, stir-fries, and pasta dishes, this mushroom strain adds a unique flavor and texture to various culinary creations.",
       "MedicalUses": "The Wood Blewit is known for its earthy aroma and nutty flavor, making it a prized culinary delight with potential medicinal properties such as aiding digestion and boosting the immune system."
@@ -1391,7 +1469,7 @@
       "Habitat": "",
       "Season": "Spring, summer, and fall.",
       "Aroma": "Earthy, nutty, slightly sweet, musky",
-      "Color": "White, Gray, Black",
+      "Color": "White, slate, Black",
       "Flavor": "The Coprinus comatus, commonly known as the shaggy mane mushroom, has a unique flavor that can be described as delicate and earthy, with a subtle nutty undertone. Its taste pairs well with a variety of dishes, making it a versatile choice for culinary exploration.",
       "CulinaryUses": "Used in soups, stir-fries, and sauces, Coprinus comatus is a versatile mushroom strain that adds a unique umami flavor to dishes.",
       "MedicalUses": "Known for its medicinal uses, Coprinus comatus has been used to treat alcohol addiction and liver disease."
@@ -1663,7 +1741,7 @@
       "Habitat": "",
       "Season": "Spring, summer, and fall.",
       "Aroma": "earthy, musty, slightly sweet, nutty",
-      "Color": "Powdery blue, pale gray",
+      "Color": "Powdery blue, pale slate",
       "Flavor": "The flavor of Cyanoboletus pulverulentus is earthy and nutty, with a hint of sweetness. It adds a rich and savory taste to any dish, making it a delightful addition to various culinary creations.",
       "CulinaryUses": "Used in soups, stir-fries, and pasta dishes, this mushroom strain adds a unique umami flavor and a meaty texture to various culinary creations.",
       "MedicalUses": "Known for its earthy aroma and nutty flavor, this mushroom strain is highly valued in culinary circles and its medicinal properties are being explored for potential anti-inflammatory and antioxidant benefits."
@@ -1835,7 +1913,7 @@
       "CommonName": "Grey Coral Fungus",
       "Introduction": "Clavulina cinerea, commonly found in North America, is prized for its versatile culinary uses and medicinal benefits.",
       "Body": "With its delicate, ethereal appearance, Clavulina cinerea is a culinary treasure. Its aroma is earthy and slightly nutty, while its flavor is subtly sweet and savory. This mushroom strain adds a unique touch to dishes, elevating them with its mild yet distinctive taste.",
-      "Appearance": "The Clavulina cinerea, commonly known as the Gray Coral fungus, boasts an exquisite appearance with its delicate, branching structures. Its grey hue blends subtly with the forest floor, adding an ethereal touch to its surroundings. While not considered culinary or medicinally valuable, its beauty is a testament to nature's intricate designs.",
+      "Appearance": "The Clavulina cinerea, commonly known as the slate Coral fungus, boasts an exquisite appearance with its delicate, branching structures. Its grey hue blends subtly with the forest floor, adding an ethereal touch to its surroundings. While not considered culinary or medicinally valuable, its beauty is a testament to nature's intricate designs.",
       "Habitat": "",
       "Season": "Summer, fall",
       "Aroma": "Earthy, musty, slightly sweet",
@@ -1855,7 +1933,7 @@
       "Habitat": "",
       "Season": "Fruits in summer and fall.",
       "Aroma": "earthy, musky, slightly sweet",
-      "Color": "Smoky, Spindles, Gray, Brown",
+      "Color": "Smoky, Spindles, slate, Brown",
       "Flavor": "The flavor of Clavaria fumosa is earthy and slightly nutty, with a hint of sweetness. It adds a unique and delightful taste to any dish it is used in.",
       "CulinaryUses": "Used in soups, sauces, and stir-fries, this mushroom strain adds a rich and earthy flavor to dishes.",
       "MedicalUses": "Known for its medicinal properties, this mushroom strain is believed to boost the immune system and aid in digestion."
@@ -1903,7 +1981,7 @@
       "Habitat": "",
       "Season": "Fruits in spring and summer.",
       "Aroma": "earthy, musty, slightly sweet",
-      "Color": "Gray Brown Black",
+      "Color": "slate Brown Black",
       "Flavor": "The flavor of Calvatia pachyderma is mild and earthy, with a hint of nuttiness. It adds a delightful depth of flavor to any dish it is used in.",
       "CulinaryUses": "Used in soups, stews, and stir-fries, Calvatia pachyderma is a versatile mushroom strain that adds a unique flavor and texture to various dishes.",
       "MedicalUses": "Known for its potential medicinal uses, Calvatia pachyderma has been studied for its anti-inflammatory and antioxidant properties."
@@ -1928,14 +2006,14 @@
       "Letter": "C",
       "ScientificName": "Cantharellus cinereus",
       "Images": "/images/strains/cantharellus-cinereus-1.webp",
-      "CommonName": "Gray chanterelle",
+      "CommonName": "slate chanterelle",
       "Introduction": "Cantharellus cinereus, also known as the Ashen Chanterelle, originates from North America and is highly prized for its exceptional culinary flavor.",
       "Body": "This delicate mushroom, commonly known as the Ashen Chanterelle, adds a subtle earthy aroma and a rich, nutty flavor to any dish. Its culinary versatility and potential health benefits make it a prized ingredient in many cuisines.",
       "Appearance": "The Cantharellus cinereus, commonly known as the Ashen Chanterelle, exhibits a mesmerizing grey hue amidst its elegant, trumpet-shaped form. Its unique appearance and delicate flavor make it a prized culinary delight, while its medicinal properties add further intrigue to this extraordinary fungus.",
       "Habitat": "",
       "Season": "Summer, fall",
       "Aroma": "Earthy, fruity, apricot-like, nutty",
-      "Color": "Gray, Chanterelle, Mushroom, Fruiting",
+      "Color": "slate, Chanterelle, Mushroom, Fruiting",
       "Flavor": "The flavor of Cantharellus cinereus is delicate and earthy, with a hint of nuttiness. It adds a subtle depth to dishes and pairs well with a variety of ingredients.",
       "CulinaryUses": "Used in soups, sauces, and sautés, this mushroom strain adds a rich and earthy flavor to a variety of dishes.",
       "MedicalUses": "Known for its delicate flavor and versatile use in various cuisines, this mushroom strain also possesses potential health benefits with its medicinal uses."
@@ -2011,11 +2089,11 @@
       "CommonName": "Thin walled maze polypore",
       "Introduction": "Daedaleopsis confragosa, the Blushing Bracket, is highly prized for its medicinal properties in traditional herbal medicine.",
       "Body": "With its delicate aroma and earthy flavor, Daedaleopsis confragosa adds a delightful touch to any dish. This mushroom strain is highly valued in culinary circles for its unique texture and ability to enhance the taste of soups, stews, and sauces. Additionally, it is believed to have medicinal properties, supporting immune function and promoting overall well-being. Its functional use extends to its ability to add a decorative touch to plates, making it a",
-      "Appearance": "The splendidly named Daedaleopsis confragosa, with its unique tiered shelves and elegant display of warm browns and subtle grays, blesses our forests with its captivating beauty. While its culinary delights may remain undiscovered, its potential medicinal value beckons for further exploration.",
+      "Appearance": "The splendidly named Daedaleopsis confragosa, with its unique tiered shelves and elegant display of warm browns and subtle slates, blesses our forests with its captivating beauty. While its culinary delights may remain undiscovered, its potential medicinal value beckons for further exploration.",
       "Habitat": "",
       "Season": "Spring, summer, fall",
       "Aroma": "Earthy, musty, slightly sweet",
-      "Color": "White, beige, brownish-gray",
+      "Color": "White, beige, brownish-slate",
       "Flavor": "The flavor of Daedaleopsis confragosa is earthy and slightly nutty, with a hint of bitterness. It adds a unique depth to dishes and pairs well with savory ingredients.",
       "CulinaryUses": "Used in soups, stir-fries, and pasta dishes, this mushroom strain adds a rich and earthy flavor to various culinary creations.",
       "MedicalUses": "Known for its delicate aroma and earthy flavor, this mushroom strain is highly valued in culinary circles for its unique texture and ability to enhance the taste of soups, stews, and sauces, while also believed to have medicinal properties supporting immune function and promoting overall well-being."
@@ -2255,7 +2333,7 @@
       "Habitat": "",
       "Season": "Origin: Fruits in spring, summer, and autumn.",
       "Aroma": "Earthy, woody, musty, slightly sweet",
-      "Color": "Brown, white, black, gray",
+      "Color": "Brown, white, black, slate",
       "Flavor": "The flavor of Ganoderma applanatum is earthy and slightly bitter, with a subtle nutty undertone. It adds a unique depth and richness to dishes, making it a popular choice among mushroom enthusiasts.",
       "CulinaryUses": "Used in soups, stews, and stir-fries, this mushroom strain adds a rich and earthy flavor to dishes.",
       "MedicalUses": "This mushroom strain is known for its medicinal uses, including immune-boosting and anti-inflammatory benefits, making it a valuable ingredient for overall well-being."
@@ -2719,7 +2797,7 @@
       "Habitat": "",
       "Season": "Fruits in spring, summer, and fall.",
       "Aroma": "Earthy, musty, woody, slightly sweet",
-      "Color": "Smoky gray-black-brown.",
+      "Color": "Smoky slate-black-brown.",
       "Flavor": "The flavor of Hypholoma capnoides is earthy and slightly nutty, with a hint of umami. Its rich taste adds depth to any dish, making it a versatile ingredient for various culinary creations.",
       "CulinaryUses": "Used in soups, stir-fries, and pasta dishes, this mushroom strain adds a rich umami flavor and meaty texture to a variety of culinary creations.",
       "MedicalUses": "Known for its unique aroma and flavor, this mushroom strain is highly valued in culinary circles and has potential medicinal uses."
@@ -3439,7 +3517,7 @@
       "Habitat": "It thrives in deciduous forests, most commonly found nestled amongst the fallen leaves and decaying logs of beech, maple, and elm trees.",
       "Season": "Summer, fall",
       "Aroma": "Earthy, musty, slightly sweet",
-      "Color": "Black, dark gray, shadowy",
+      "Color": "Black, dark slate, shadowy",
       "Flavor": "The flavor of Lycoperdon umbrinum is earthy and nutty, with a hint of umami. It adds a rich and savory taste to dishes, making it a delightful addition to any culinary creation.",
       "CulinaryUses": "Used in soups, stir-fries, and pasta dishes, the Shadow Puffball adds a unique umami flavor and a delightful texture.",
       "MedicalUses": "This mushroom strain is valued for its potential medicinal benefits, including immune-boosting properties."
@@ -3531,7 +3609,7 @@
       "CommonName": "False Morel",
       "Introduction": "Lyophyllum loricatum, a gourmet mushroom native to Europe, highly valued for its exceptional culinary qualities and health benefits.",
       "Body": "Lyophyllum loricatum, commonly known as the Red Belted Conk, is a versatile mushroom strain valued for its earthy aroma and nutty flavor. It is often used in culinary dishes, adding depth and richness to soups, stews, and stir-fries. With potential medicinal benefits, it is believed to support immune function and promote overall well-being.",
-      "Appearance": "The distinguished Lyophyllum loricatum, adorned with a resilient cap of smoky gray hues, captivates the eye with its elegant veil. Valued for its delectable taste, this enchanting mushroom weaves its way into gourmet dishes, while its medicinal properties continue to be explored.",
+      "Appearance": "The distinguished Lyophyllum loricatum, adorned with a resilient cap of smoky slate hues, captivates the eye with its elegant veil. Valued for its delectable taste, this enchanting mushroom weaves its way into gourmet dishes, while its medicinal properties continue to be explored.",
       "Habitat": "Grows on decaying logs and fallen branches amidst a lush forest of coniferous trees, their towering trunks reaching towards the sky while creating a cozy shade for the forest floor.",
       "Season": "Spring, summer, and fall.",
       "Aroma": "Earthy, nutty, slightly sweet",
@@ -3679,7 +3757,7 @@
       "Habitat": "",
       "Season": "Fruits in autumn and winter.",
       "Aroma": "Earthy, fruity, slightly sweet",
-      "Color": "Purple, lilac, brownish-gray",
+      "Color": "Purple, lilac, brownish-slate",
       "Flavor": "The Lepista irina mushroom strain has a delicate and earthy flavor with subtle hints of nuttiness. Its unique taste adds depth and richness to any dish, making it a delightful culinary experience.",
       "CulinaryUses": "Used in soups, stews, risottos, and pasta dishes, Lepista irina adds a rich and earthy flavor to a variety of culinary creations.",
       "MedicalUses": "Lepista irina is known for its potential medicinal benefits, which are currently being studied."
@@ -4795,7 +4873,7 @@
       "CommonName": "Fuzzy foot",
       "Introduction": "Morchella tomentosa, also called the Tomentose Morel, is highly sought after for its exceptional flavor and culinary versatility.",
       "Body": "This delightful mushroom, known as Morchella tomentosa, is a true culinary treasure. Its earthy aroma and nutty flavor add depth to any dish. With its medicinal properties, it's not just a treat for the taste buds, but also a boost for our health.",
-      "Appearance": "The magnificent Morchella tomentosa, with its velvety caps that resemble honeycombs, display rich shades of brown and gray. Its exquisite taste lends itself as a culinary delicacy, while its medicinal potential awaits further exploration. A true marvel of the fungal kingdom!",
+      "Appearance": "The magnificent Morchella tomentosa, with its velvety caps that resemble honeycombs, display rich shades of brown and slate. Its exquisite taste lends itself as a culinary delicacy, while its medicinal potential awaits further exploration. A true marvel of the fungal kingdom!",
       "Habitat": "",
       "Season": "Spring, summer, or fall depending on the region.",
       "Aroma": "Earthy, nutty, aromatic",
@@ -5039,7 +5117,7 @@
       "Habitat": "Flourishing in enchanting forests characterized by towering oak and hazelnut trees, this mushroom strain thrives upon decaying wood and fallen leaves strewn across the lush forest floor.",
       "Season": "Fruits in spring, summer, and early autumn.",
       "Aroma": "Earthy, nutty, slightly sweet",
-      "Color": "Gray, brown, white, black",
+      "Color": "slate, brown, white, black",
       "Flavor": "The flavor of Pluteus petasatus is earthy and nutty, with a subtle hint of sweetness. It adds a delightful depth to any dish, making it a versatile and delicious choice for culinary exploration.",
       "CulinaryUses": "Used in soups, stir-fries, and pasta dishes, this mushroom strain adds a rich and earthy flavor to various culinary creations.",
       "MedicalUses": "Known for its immune-boosting properties, this versatile culinary mushroom is valued for its delicate aroma and earthy flavor, making it a perfect addition to risottos and pasta dishes."
@@ -5291,7 +5369,7 @@
       "CommonName": "Brown field mushroom",
       "Introduction": "Psathyrella spadiceogrisea, commonly known as the Chestnut Brown Psathyrella, is prized for its rich flavor and versatility in culinary applications.",
       "Body": "Psathyrella spadiceogrisea, commonly known as the Chestnut Brown Psathyrella, is a versatile mushroom strain valued for its earthy aroma and nutty flavor. It is highly sought after in culinary circles for its ability to enhance the taste of various dishes. Additionally, it is believed to have potential medicinal properties, including immune-boosting and anti-inflammatory effects. With its unique combination of aroma and flavor, this mushroom strain adds",
-      "Appearance": "The Psathyrella spadiceogrisea, commonly known as the Walnut Psathyrella, displays captivating hues of rich brown and gray. Though not renowned in the culinary or medical field, this elegant species adds a touch of natural beauty to its surroundings. A true marvel of the mushroom kingdom.",
+      "Appearance": "The Psathyrella spadiceogrisea, commonly known as the Walnut Psathyrella, displays captivating hues of rich brown and slate. Though not renowned in the culinary or medical field, this elegant species adds a touch of natural beauty to its surroundings. A true marvel of the mushroom kingdom.",
       "Habitat": "",
       "Season": "Spring, fall",
       "Aroma": "earthy, nutty, slightly sweet, musty",
@@ -5451,7 +5529,7 @@
       "CommonName": "Deer mushroom",
       "Introduction": "Pluteus cervinus, commonly known as Deer Shield, is highly valued for its exceptional culinary flavor and medicinal properties.",
       "Body": "Pluteus cervinus, commonly known as Deer Mushroom, is a versatile culinary delight. Its earthy aroma and nutty flavor add depth to dishes. With potential health benefits, it's a prized ingredient in traditional medicine. Its functional use extends to natural dyes and bio-remediation.",
-      "Appearance": "Pluteus cervinus, commonly known as the Deer Shield, boasts a captivating appearance with its pale grayish-brown cap and cinnamon-colored gills. While not widely used in cooking, it possesses no reported medical significance. A magnificent addition to our wondrous fungal world.",
+      "Appearance": "Pluteus cervinus, commonly known as the Deer Shield, boasts a captivating appearance with its pale slateish-brown cap and cinnamon-colored gills. While not widely used in cooking, it possesses no reported medical significance. A magnificent addition to our wondrous fungal world.",
       "Habitat": "",
       "Season": "Spring, summer, and fall.",
       "Aroma": "Earthy, musty, nutty",
@@ -5679,7 +5757,7 @@
       "Habitat": "",
       "Season": "Year-round in tropical and subtropical regions.",
       "Aroma": "Earthy, musty, slightly sweet",
-      "Color": "Brown, white, black, gray",
+      "Color": "Brown, white, black, slate",
       "Flavor": "The flavor of Panaeolus antillarum is mild and earthy, with a subtle nutty undertone. It adds a delightful depth to dishes and pairs well with various ingredients, making it a versatile choice for culinary creations.",
       "CulinaryUses": "Used in soups, stir-fries, and pasta dishes, this sought-after Caribbean mushroom strain adds a unique flavor and texture to culinary creations.",
       "MedicalUses": "The mushroom strain is known for its versatile culinary potential, with a unique aroma and mild, nutty flavor that adds depth to dishes, while its medicinal properties are still being explored."
@@ -5759,7 +5837,7 @@
       "Habitat": "",
       "Season": "Fruits in spring and summer.",
       "Aroma": "Earthy, nutty, slightly sweet, musky",
-      "Color": "White, pale, grayish, translucent",
+      "Color": "White, pale, slateish, translucent",
       "Flavor": "The flavor of Phallus indusiatus is earthy and nutty, with a subtle hint of sweetness. It adds a delightful umami taste to any dish, making it a versatile and delicious mushroom strain.",
       "CulinaryUses": "Used in soups, stir-fries, and sauces, this mushroom strain adds a delicate and earthy flavor to various dishes.",
       "MedicalUses": "Known for its delicate appearance, enchanting aroma, and versatile flavor, this mushroom strain is highly valued for its potential medicinal properties, particularly in supporting immune function and promoting overall well-being."
@@ -5791,7 +5869,7 @@
       "Habitat": "",
       "Season": "Year-round in temperate and tropical regions.",
       "Aroma": "Earthy, nutty, slightly sweet",
-      "Color": "White, pale, dove gray",
+      "Color": "White, pale, dove slate",
       "Flavor": "The flavor of Pleurotus columbinus is mild and earthy, with subtle hints of nuttiness. It adds a delightful umami taste to any dish, making it a versatile and delicious choice for culinary creations.",
       "CulinaryUses": "Used in various dishes such as soups, stir-fries, and pasta sauces, this mushroom strain adds a rich and earthy flavor to elevate the taste of any recipe.",
       "MedicalUses": "This mushroom strain is cherished for its potential health benefits and immune-boosting properties."
@@ -5887,7 +5965,7 @@
       "Habitat": "",
       "Season": "Fruits in spring and fall.",
       "Aroma": "Earthy, musty, slightly sweet",
-      "Color": "White, brown, gray, black",
+      "Color": "White, brown, slate, black",
       "Flavor": "The flavor of Psathyrella candolleana is earthy and nutty, with a subtle hint of umami. It adds a delightful depth to dishes and pairs well with a variety of ingredients.",
       "CulinaryUses": "Used in desserts, such as ice cream and pastries, to impart a distinct maple flavor.",
       "MedicalUses": "Known for its culinary delight, this mushroom strain does not have any documented medicinal uses."
@@ -6827,7 +6905,7 @@
       "CommonName": "Oak-loving bolete",
       "Introduction": "Suillellus queletii, commonly known as the Oak Bolete, originates from Europe. Prized for its exquisite flavor, this mushroom is a culinary delicacy.",
       "Body": "Suillellus queletii, commonly known as the Chestnut Bolete, is a prized culinary delight. Its earthy aroma and nutty flavor add depth to any dish. With potential health benefits and functional uses, this mushroom strain is a versatile ingredient cherished by chefs and mushroom enthusiasts alike.",
-      "Appearance": "The Suillellus queletii, commonly known as the Gray-brown Slippery Jack, displays a majestic appearance with its earthy hues. While not favored in culinary circles, this mushroom strain is esteemed for its potential medicinal value.",
+      "Appearance": "The Suillellus queletii, commonly known as the slate-brown Slippery Jack, displays a majestic appearance with its earthy hues. While not favored in culinary circles, this mushroom strain is esteemed for its potential medicinal value.",
       "Habitat": "",
       "Season": "Origin: Seasons: Spring, Summer, Fall",
       "Aroma": "Earthy, nutty, fruity",
@@ -7071,7 +7149,7 @@
       "Habitat": "Grows on the forest floor amidst a cluster of tall everemerald pine trees, surrounded by fallen pine needles and decaying logs.",
       "Season": "Seasons: Fall, Winter",
       "Aroma": "Earthy, nutty, slightly sweet",
-      "Color": "Silver, knight, metallic, gray",
+      "Color": "Silver, knight, metallic, slate",
       "Flavor": "The flavor of Tricholoma argyraceum is mild and earthy, with a hint of nuttiness. It adds a delightful depth and richness to any dish it is used in.",
       "CulinaryUses": "Used in soups, sauces, and stir-fries, this delicate mushroom strain adds a unique flavor and texture to a variety of dishes.",
       "MedicalUses": "Known for its delicate aroma and nutty flavor, this prized culinary mushroom does not have any known medicinal uses."
@@ -7295,7 +7373,7 @@
       "Habitat": "",
       "Season": "Year-round in temperate regions, spring and fall.",
       "Aroma": "Earthy, musty, woody, slightly sweet",
-      "Color": "Brown, tan, white, gray",
+      "Color": "Brown, tan, white, slate",
       "Flavor": "The flavor of Trametes versicolor is earthy and slightly bitter, with a subtle hint of nuttiness. It adds a unique depth of taste to dishes and pairs well with savory ingredients.",
       "CulinaryUses": "Used in soups, stir-fries, and pasta dishes, this mushroom strain adds a rich and earthy flavor to various culinary creations.",
       "MedicalUses": "Known for its immune-boosting properties, this mushroom strain is highly valued for its culinary and functional purposes."
@@ -7327,7 +7405,7 @@
       "Habitat": "",
       "Season": "Origin: Seasons: Spring, Summer, Fall.",
       "Aroma": "Earthy, nutty, slightly sweet, musky",
-      "Color": "White, gray, brown, black",
+      "Color": "White, slate, brown, black",
       "Flavor": "The common name of Tricholoma imbricatum is the scaly knight. This mushroom strain has a mild and nutty flavor, making it a delightful addition to various culinary dishes.",
       "CulinaryUses": "Used in soups, stir-fries, and pasta dishes, this mushroom strain adds a unique earthy flavor and meaty texture to various culinary creations.",
       "MedicalUses": "Known for its earthy aroma and nutty flavor, this mushroom strain is highly valued in culinary dishes and is believed to have potential medicinal properties in boosting the immune system."

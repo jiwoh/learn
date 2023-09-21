@@ -9,14 +9,14 @@ export async function generateRssFeed() {
   let articles = await getAllArticles()
   let siteUrl = process.env.NEXT_PUBLIC_SITE_URL
   let author = {
-    name: 'RealMush',
-    email: 'info@RealMush.co',
+    name: 'John Iwoh',
+    email: 'info@John Iwoh.co',
   }
 
   let feed = new Feed({
     title: author.name,
     description:
-      'Unleash your full potential with mushroom cultivation, medicine, health, and cuisine from spores to plates with RealMush.',
+      'Unleash your full potential with mushroom cultivation, medicine, health, and cuisine from spores to plates with John Iwoh.',
     author,
     id: siteUrl,
     link: siteUrl,

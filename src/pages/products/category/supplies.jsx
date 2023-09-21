@@ -6,7 +6,7 @@ import { getProductsDataByCategory } from '@/lib/productsData'
 const heroInfo = {
   title: 'We are changing the way people live, heal and grow.',
   description:
-    'Unlock the world of mushrooms at RealMush. From cultivation, cuisine, health, and medicine, we are passionate about all things fungi. Embark today on an extraordinary journey of growth and wonder. Start your mushroom adventure with us today.',
+    'Unlock the world of mushrooms at John Iwoh. From cultivation, cuisine, health, and medicine, we are passionate about all things fungi. Embark today on an extraordinary journey of growth and wonder. Start your mushroom adventure with us today.',
   primaryAction: {
     text: 'Get Started',
     href: '#',
@@ -51,19 +51,22 @@ export default function Product({ products }) {
         Supplies for Mycology
       </h2>
       <div className="py-2 text-center sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-bold tracking-tight text-zinc-900 dark:text-emerald-600">Shop Now</h1>
-        <p className="max-w-xl mx-auto mt-4 text-base text-zinc-600 dark:text-zinc-200">
-              Unlock the world of fungi and mushrooms. Start your extraordinary journey of growth, wonder and mushroom adventure with us today.
+        <h1 className="text-4xl font-bold tracking-tight text-zinc-900 dark:text-emerald-600">
+          Shop Now
+        </h1>
+        <p className="mx-auto mt-4 max-w-xl text-base text-zinc-600 dark:text-zinc-200">
+          Unlock the world of fungi and mushrooms. Start your extraordinary
+          journey of growth, wonder and mushroom adventure with us today.
         </p>
       </div>
-      <div className="mx-auto max-w-2xlpy-16 sm:py-24 lg:max-w-7xl">
+      <div className="max-w-2xlpy-16 mx-auto sm:py-24 lg:max-w-7xl">
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
           {products.map((product) => (
             <div key={product.id} className="">
               <Link href={`/products/${product.id}`}>
                 {' '}
                 <div className="... relative mx-auto flex max-w-md flex-col space-y-3 rounded-xl border-2 border-zinc-200/50 p-3 shadow-lg dark:border-2 dark:border-zinc-900 dark:bg-zinc-900/30 dark:shadow-none md:max-w-3xl md:flex-row md:space-x-5 md:space-y-0 lg:max-w-6xl">
-                  <div className="grid w-full py-2 place-items-center md:w-1/3">
+                  <div className="grid w-full place-items-center py-2 md:w-1/3">
                     <Image
                       src={product.image}
                       alt={product.metadata.species}
@@ -74,7 +77,7 @@ export default function Product({ products }) {
                     />
                   </div>
 
-                  <div className="flex flex-col w-full p-1 space-y-1 leading-6 md:w-2/3">
+                  <div className="flex w-full flex-col space-y-1 p-1 leading-6 md:w-2/3">
                     <h3 className="-mb-2 text-3xl font-[600] tracking-tight text-zinc-800 dark:text-zinc-100 lg:text-3xl">
                       {product.title}
                     </h3>
@@ -103,7 +106,7 @@ export default function Product({ products }) {
                       >
                         <svg
                           aria-hidden="true"
-                          className="w-5 h-5 mr-2 -ml-1"
+                          className="-ml-1 mr-2 h-5 w-5"
                           fill="currentColor"
                           viewBox="0 0 20 20"
                           xmlns="http://www.w3.org/2000/svg"

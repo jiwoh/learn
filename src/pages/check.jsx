@@ -19,13 +19,13 @@ const product = {
     {
       name: 'Washed Black',
       bgColor: 'bg-neutral-700',
-      selectedColor: 'ring-gray-700',
+      selectedColor: 'ring-slate-700',
     },
-    { name: 'White', bgColor: 'bg-white', selectedColor: 'ring-gray-400' },
+    { name: 'White', bgColor: 'bg-white', selectedColor: 'ring-slate-400' },
     {
-      name: 'Washed Gray',
+      name: 'Washed slate',
       bgColor: 'bg-neutral-500',
-      selectedColor: 'ring-gray-500',
+      selectedColor: 'ring-slate-500',
     },
   ],
   description: `
@@ -199,7 +199,7 @@ export default function Example() {
                 <div className="mt-10 flex">
                   <button
                     type="submit"
-                    className="flex w-full max-w-xs flex-1 items-center justify-center rounded-md border border-transparent bg-blue-600 px-8 py-3 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-50 sm:w-full"
+                    className="flex w-full max-w-xs flex-1 items-center justify-center rounded-md border border-transparent bg-blue-600 px-8 py-3 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-slate-50 sm:w-full"
                   >
                     Add to bag
                   </button>

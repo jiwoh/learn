@@ -45,7 +45,7 @@ export function HomeVideoJarLids() {
               </div>
               <div className="mt-4 text-center sm:mt-0 sm:w-2/3 sm:py-8 sm:pl-8 sm:text-left">
                 <p className="mb-4 text-base leading-relaxed text-zinc-700 dark:text-zinc-200 md:mt-4 md:text-lg">
-                  Keep the contamination out. RealMush provides high-quality
+                  Keep the contamination out. John Iwoh provides high-quality
                   mushroom mycology lids for grain and liquid cultures. Our lids
                   are carefully designed to ensure optimal growth conditions for
                   mushroom cultivation, allowing you to achieve outstanding

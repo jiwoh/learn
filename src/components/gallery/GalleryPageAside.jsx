@@ -146,7 +146,7 @@ const GalleryPageAside = ({
         </button>
 
         <div className="hidden lg:block">
-          <form className="space-y-10 divide-y divide-gray-200">
+          <form className="space-y-10 divide-y divide-slate-200">
             {filters.map((section, sectionIdx) => (
               <div
                 key={section.name}

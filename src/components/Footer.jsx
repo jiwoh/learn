@@ -109,7 +109,7 @@ export function Footer() {
         Footer
       </h2>
 
-      <div className="max-w-5xl px-6 pt-8 pb-8 mx-auto sm:pt-12 lg:px-8 ">
+      <div className="mx-auto max-w-5xl px-6 pb-8 pt-8 sm:pt-12 lg:px-8 ">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="grid grid-cols-2 gap-8 xl:col-span-2">
             <div className="md:grid md:grid-cols-2 md:gap-8">
@@ -122,7 +122,7 @@ export function Footer() {
                     <li key={item.name}>
                       <Link
                         href={item.href}
-                        className="text-sm leading-4 transition text-zinc-600 hover:text-emerald-500 hover:text-zinc-900 hover:underline dark:text-zinc-50 dark:hover:text-emerald-400"
+                        className="text-sm leading-4 text-zinc-600 transition hover:text-emerald-500 hover:text-zinc-900 hover:underline dark:text-zinc-50 dark:hover:text-emerald-400"
                       >
                         {item.name}
                       </Link>
@@ -139,7 +139,7 @@ export function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-sm leading-4 transition text-zinc-600 hover:text-emerald-500 hover:text-zinc-900 hover:underline dark:text-zinc-50 dark:hover:text-emerald-400"
+                        className="text-sm leading-4 text-zinc-600 transition hover:text-emerald-500 hover:text-zinc-900 hover:underline dark:text-zinc-50 dark:hover:text-emerald-400"
                       >
                         {item.name}
                       </a>
@@ -158,7 +158,7 @@ export function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-sm leading-4 transition text-zinc-600 hover:text-emerald-500 hover:text-zinc-900 hover:underline dark:text-zinc-50 dark:hover:text-emerald-400"
+                        className="text-sm leading-4 text-zinc-600 transition hover:text-emerald-500 hover:text-zinc-900 hover:underline dark:text-zinc-50 dark:hover:text-emerald-400"
                       >
                         {item.name}
                       </a>
@@ -175,7 +175,7 @@ export function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-sm leading-4 transition text-zinc-600 hover:text-emerald-500 hover:text-zinc-900 hover:underline dark:text-zinc-50 dark:hover:text-emerald-400"
+                        className="text-sm leading-4 text-zinc-600 transition hover:text-emerald-500 hover:text-zinc-900 hover:underline dark:text-zinc-50 dark:hover:text-emerald-400"
                       >
                         {item.name}
                       </a>
@@ -209,7 +209,7 @@ export function Footer() {
               <div className="mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0">
                 <button
                   type="submit"
-                  className="flex items-center justify-center w-full px-3 py-2 text-sm font-semibold text-white bg-blue-600 rounded-md shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                  className="flex w-full items-center justify-center rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                 >
                   Subscribe
                 </button>
@@ -217,7 +217,7 @@ export function Footer() {
             </form>
           </div>
         </div>
-        <div className="py-6 border-t border-zinc-900/10 sm:mt-16 md:flex md:items-center md:justify-between ">
+        <div className="border-t border-zinc-900/10 py-6 sm:mt-16 md:flex md:items-center md:justify-between ">
           <div className="flex space-x-6 md:order-2">
             {navigation.social.map((item) => (
               <a
@@ -226,12 +226,12 @@ export function Footer() {
                 className="text-zinc-400 hover:text-blue-600"
               >
                 <span className="sr-only">{item.name}</span>
-                <item.icon className="w-6 h-6" aria-hidden="true" />
+                <item.icon className="h-6 w-6" aria-hidden="true" />
               </a>
             ))}
           </div>
           <p className="mt-8 text-xs font-normal leading-5 text-zinc-700 dark:text-white md:order-1 md:mt-0">
-            &copy; {new Date().getFullYear()} RealMush &amp; Health. All Rights
+            &copy; {new Date().getFullYear()} John Iwoh &amp; Health. All Rights
             Reserved.
           </p>
         </div>

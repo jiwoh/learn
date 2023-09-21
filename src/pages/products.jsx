@@ -15,7 +15,7 @@ import { useEffect } from 'react'
 const heroInfo = {
   title: 'We are changing the way people live, heal and grow.',
   description:
-    'Unlock the world of mushrooms at RealMush. From cultivation, cuisine, health, and medicine, we are passionate about all things fungi. Embark today on an extraordinary journey of growth and wonder. Start your mushroom adventure with us today.',
+    'Unlock the world of mushrooms at John Iwoh. From cultivation, cuisine, health, and medicine, we are passionate about all things fungi. Embark today on an extraordinary journey of growth and wonder. Start your mushroom adventure with us today.',
   primaryAction: {
     text: 'Get Started',
     href: '#',
@@ -204,14 +204,14 @@ export default function ProductsPage({ categories }) {
                   <button
                     onClick={() => setPagination((prevPage) => prevPage - 1)}
                     disabled={!page}
-                    className="relative inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-zinc-900 ring-1 ring-inset ring-gray-300 hover:bg-neutral-50 focus-visible:outline-offset-0 disabled:bg-zinc-200 disabled:dark:bg-zinc-300"
+                    className="relative inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-zinc-900 ring-1 ring-inset ring-slate-300 hover:bg-neutral-50 focus-visible:outline-offset-0 disabled:bg-zinc-200 disabled:dark:bg-zinc-300"
                   >
                     Previous
                   </button>
                   <button
                     onClick={() => setPagination((prevPage) => prevPage + 1)}
                     disabled={!hasMore}
-                    className="relative ml-3 inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-zinc-900 ring-1 ring-inset ring-gray-300 hover:bg-neutral-50 focus-visible:outline-offset-0 disabled:bg-zinc-200 disabled:dark:bg-zinc-300"
+                    className="relative ml-3 inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-zinc-900 ring-1 ring-inset ring-slate-300 hover:bg-neutral-50 focus-visible:outline-offset-0 disabled:bg-zinc-200 disabled:dark:bg-zinc-300"
                   >
                     Next
                   </button>

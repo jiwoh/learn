@@ -34,7 +34,7 @@ export function ArticleLayout({
   return (
     <>
       <Head>
-        <title>{`${meta.title} - RealMush`}</title>
+        <title>{`${meta.title} - John Iwoh`}</title>
         <meta name="description" content={meta.description} />
       </Head>
       <div className="xl:relative">
