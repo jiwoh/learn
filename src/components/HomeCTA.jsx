@@ -9,7 +9,7 @@ export function HomeCTA() {
       <div className="">
         <div className="py-24 mx-auto max-w-7xl sm:px-6 sm:py-32 lg:px-8 ">
           <div className="relative px-6 py-24 overflow-hidden text-center shadow-2xl isolate bg-gradient-to-b from-slate-100 to-slate-200 sm:rounded-3xl sm:px-16">
-            <h2 className="max-w-2xl mx-auto text-blue-800">
+            <h2 className="max-w-2xl mx-auto text-4xl text-blue-800 md:text-5xl">
               Start your CyberSecurity journey today.
             </h2>
             <p className="max-w-xl mx-auto mt-6 text-lg leading-7 text-zinc-800">

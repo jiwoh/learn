@@ -11,12 +11,12 @@ export function ContactUs() {
   return (
     <section>
       {/* Contact Us section */}
-      <div className="relative isolate overflow-hidden px-6 pt-14 lg:px-8">
+      <div className="relative px-6 overflow-hidden isolate pt-14 lg:px-8">
         <Image
           src="https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-50&exp=45&blend-mode=multiply"
           alt=""
           layout="fill"
-          className="absolute inset-0 -z-10 h-full w-full object-cover"
+          className="absolute inset-0 object-cover w-full h-full -z-10"
         />
         <svg
           viewBox="0 0 1097 845"
@@ -66,28 +66,33 @@ export function ContactUs() {
             </linearGradient>
           </defs>
         </svg>
-        <div className="mx-auto max-w-7xl py-24 sm:py-40">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+        <div className="py-24 mx-auto max-w-7xl sm:py-40">
+          <div className="max-w-2xl mx-auto text-center">
+            <h2 className="text-4xl font-bold tracking-tight text-yellow-300 sm:text-6xl">
               Let&apos;s get started
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300"></p>
           </div>
-          <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
-            <div className="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
+          <div id="contact-us" className="grid max-w-2xl grid-cols-1 gap-6 mx-auto mt-16 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
+            <div className="flex p-6 gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
               <PhoneIcon
-                className="h-7 w-5 flex-none text-indigo-400"
+                className="flex-none w-5 text-zinc-50 h-7"
                 aria-hidden="true"
               />
               <div className="text-base leading-7">
-                <h3 className="font-semibold text-white">
+                <h3 className="font-semibold text-yellow-300">
                   Get the conversation started
                 </h3>
                 <p className="mt-2 text-gray-300">
-                  +1 (281) 991-4244
+                    <a
+                    className="text-white hover:text-blue-300"
+                    href="tel:+12819914244"
+                  >
+                    +1 (281) 991-4244
+                  </a>
                   <br />
                   <a
-                    className="text-white hover:text-gray-300"
+                    className="text-white hover:text-blue-300"
                     href="mailto:connect@learncyba.com"
                   >
                     connect@learncyba.com
@@ -95,13 +100,13 @@ export function ContactUs() {
                 </p>
               </div>
             </div>
-            <div className="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
+            <div className="flex p-6 gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
               <LifebuoyIcon
-                className="h-7 w-5 flex-none text-indigo-400"
+                className="flex-none w-5 text-zinc-50 h-7"
                 aria-hidden="true"
               />
               <div className="text-base leading-7">
-                <h3 className="font-semibold text-white">Hours</h3>
+                <h3 className="font-semibold text-yellow-300">Hours</h3>
                 <p className="mt-2 text-gray-300">
                   8am - 5pm (CT)
                   <br />
@@ -114,13 +119,13 @@ export function ContactUs() {
                 </p>
               </div>
             </div>
-            <div className="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
+            <div className="flex p-6 gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
               <BuildingOffice2Icon
-                className="h-7 w-5 flex-none text-indigo-400"
+                className="flex-none w-5 text-zinc-50 h-7"
                 aria-hidden="true"
               />
               <div className="text-base leading-7">
-                <h3 className="font-semibold text-white">Address</h3>
+                <h3 className="font-semibold text-yellow-300">Address</h3>
                 <p className="mt-2 text-gray-300">
                   17350 TX-249 STE 220 #14755,
                   <br />

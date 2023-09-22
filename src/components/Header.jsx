@@ -10,6 +10,8 @@ import {
   AcademicCapIcon,
   BuildingStorefrontIcon,
   BeakerIcon,
+  VideoCameraIcon,
+  CalendarDaysIcon,
 } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -127,7 +129,17 @@ const navigation = {
       ],
     },
   ],
-  pages: [{ name: 'Shop', href: '/products', icon: ShoppingBagIcon }],
+  pages: [
+    { name: 'Home', href: '/', icon: ShoppingBagIcon },
+    { name: 'Course', href: '/#course-structure', icon: AcademicCapIcon },
+    { name: 'Contact', href: '/#contact-us', icon: UserCircleIcon },
+    {
+      name: 'Schedule',
+      href: 'https://calendly.com/d/4sq-mpj-ktz/cybersecurity-career-advice-strategy-session',
+      icon: VideoCameraIcon,
+    },
+    { name: 'Reviews', href: '/#video-testimonials', icon: ShoppingBagIcon },
+  ],
 }
 
 export default function Example() {
@@ -177,7 +189,7 @@ export default function Example() {
                     </button>
                   </div>
 
-                  {/* Links */}
+                  {/* Links 
                   <Tab.Group as="div" className="mt-2">
                     <div className="border-b border-zinc-200 dark:border-zinc-500">
                       <Tab.List className="flex px-4 -mb-px space-x-8">
@@ -243,6 +255,7 @@ export default function Example() {
                       ))}
                     </Tab.Panels>
                   </Tab.Group>
+                  */}
 
                   <div className="px-4 py-6 space-y-6 border-t border-zinc-200 dark:border-zinc-500">
                     {navigation.pages.map((page) => (
@@ -280,7 +293,7 @@ export default function Example() {
                           <div>
                             <Image
                               src="/images/learncyba_ring.webp"
-                              alt="mobile logo John Iwoh"
+                              alt="Learn Cyba - John Iwoh"
                               width="221"
                               height="50"
                               className="inline-block h-9 w-9"
@@ -292,7 +305,7 @@ export default function Example() {
                             </span>
                           </div>
                         </div>
-                        <span className="sr-only">John Iwoh</span>
+                        <span className="sr-only">LearnCyba - John Iwoh</span>
                       </Link>
                     </div>
 
@@ -312,101 +325,8 @@ export default function Example() {
                               {page.name}
                             </Link>
                           ))}
-                          {navigation.categories.map((category) => (
-                            <Popover key={category.name} className="flex">
-                              {({ open, close }) => (
-                                <>
-                                  <div className="relative flex">
-                                    <Popover.Button
-                                      className={classNames(
-                                        open
-                                          ? 'border-emerald-600 text-emerald-600'
-                                          : 'border-transparent text-zinc-700 hover:text-emerald-600 dark:text-zinc-50 hover:dark:text-emerald-400',
-                                        'ease-in-ease-out relative z-10 -mb-px flex items-center border-b-2 pt-px text-base font-medium transition-colors duration-200 hover:scale-110'
-                                      )}
-                                    >
-                                      {category.icon && (
-                                        <category.icon className="w-5 h-5 mr-2 text-emerald-600 hover:scale-125 dark:text-emerald-600" />
-                                      )}
-                                      {category.name}
-                                    </Popover.Button>
-                                  </div>
-
-                                  <Transition
-                                    as={Fragment}
-                                    enter="transition ease-out duration-200"
-                                    enterFrom="opacity-0"
-                                    enterTo="opacity-100"
-                                    leave="transition ease-in duration-150"
-                                    leaveFrom="opacity-100"
-                                    leaveTo="opacity-0"
-                                  >
-                                    <Popover.Panel className="absolute inset-x-0 z-50 text-sm top-full text-zinc-500">
-                                      {/* Presentational element used to render the bottom shadow, if we put the shadow on the actual panel it pokes out the top, so we use this shorter element to hide the top of the shadow */}
-                                      <div
-                                        onClick={close}
-                                        className="fixed inset-0 top-1/2 backdrop-blur"
-                                      />
-                                      <div
-                                        className="absolute inset-0 bg-white shadow top-1/2 dark:bg-zinc-900"
-                                        aria-hidden="true"
-                                      />
-                                      {/* <Transition.Child
-                                        as={Fragment}
-                                        enter="transition ease-out duration-300"
-                                        enterFrom="opacity-0"
-                                        enterTo="opacity-100"
-                                        leave="transition ease-in duration-200"
-                                        leaveFrom="opacity-100"
-                                        leaveTo="opacity-0"
-                                      > */}
-                                      {/* </Transition.Child> */}
-
-                                      <div className="relative bg-white dark:bg-zinc-900">
-                                        <div className="px-8 mx-auto max-w-7xl">
-                                          <div className="grid grid-cols-4 py-16 gap-x-8 gap-y-10">
-                                            {category.featured.map((item) => (
-                                              <div
-                                                key={item.name}
-                                                className="relative group"
-                                                onClick={close}
-                                              >
-                                                <div className="overflow-hidden rounded-md aspect-h-1 aspect-w-1 bg-zinc-100 group-hover:opacity-75">
-                                                  <Image
-                                                    src={item.imageSrc}
-                                                    alt={item.imageAlt}
-                                                    width="500"
-                                                    height="500"
-                                                    className="object-cover object-center"
-                                                  />
-                                                </div>
-                                                <Link
-                                                  href={item.href}
-                                                  className="block mt-4 font-medium text-zinc-900 dark:text-zinc-200"
-                                                >
-                                                  <span
-                                                    className="absolute inset-0 z-10"
-                                                    aria-hidden="true"
-                                                  />
-                                                  {item.name}
-                                                </Link>
-                                                <p
-                                                  aria-hidden="true"
-                                                  className="mt-1 dark:text-zinc-400"
-                                                >
-                                                  {item.subtitle}
-                                                </p>
-                                              </div>
-                                            ))}
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </Popover.Panel>
-                                  </Transition>
-                                </>
-                              )}
-                            </Popover>
-                          ))}
+                          {/*
+                           */}
                         </div>
                       </Popover.Group>
                     </div>
@@ -437,7 +357,7 @@ export default function Example() {
 
                     <div className="flex items-center justify-end flex-1">
                       <div className="flex items-center gap-4 lg:ml-8">
-                        {/* Cart */}
+                        {/* Cart 
                         <div className="flow-root ml-4 lg:ml-8">
                           <div className="flex items-center p-2 -m-2 cursor-pointer snipcart-checkout group:ease-in-ease-out group">
                             <ShoppingBagIcon
@@ -450,14 +370,14 @@ export default function Example() {
                               items in cart, view bag
                             </span>
                           </div>
-                        </div>
-                        {/* My account */}
+                        </div>*/}
+                        {/* My account 
                         <div className="cursor-pointer snipcart-customer-signin ">
                           <UserCircleIcon
                             className="flex-shrink-0 w-6 h-6 ease-in-ease-out text-zinc-900 hover:scale-110 group-hover:text-emerald-600 dark:text-emerald-600"
                             aria-hidden="true"
                           />
-                        </div>
+                        </div>*/}
                         <ModeToggle />
                       </div>
                     </div>
@@ -469,16 +389,10 @@ export default function Example() {
         </header>
       </div>
       {/* Mobile navbar with icons */}
-      <div className="shadow-top fixed bottom-0 left-1/2 z-50 w-[100%] -translate-x-1/2  bg-white bg-opacity-70 p-2 px-4 ring-1 ring-neutral-200/60 backdrop-blur-lg backdrop-filter dark:bg-[#1d1c20] dark:bg-opacity-70 dark:ring-neutral-600/40 md:hidden">
+      <div className="shadow-top fixed bottom-0 left-1/2 z-50 w-[100%] -translate-x-1/2  bg-white bg-opacity-70 px-4 py-1 ring-1 ring-neutral-200/60 backdrop-blur-lg backdrop-filter dark:bg-[#1d1c20] dark:bg-opacity-70 dark:ring-neutral-600/40 md:hidden">
         <div className="flex items-center justify-between w-full gap-4">
           <div>
             <ModeToggle />
-          </div>
-
-          {/* My account */}
-          <div className="menu-item">
-            <UserCircleIcon className="menu-item-icon" aria-hidden="true" />
-            <div className="menu-item-text">Account</div>
           </div>
 
           {/* Home */}
@@ -487,31 +401,40 @@ export default function Example() {
             <div className="menu-item-text">Home</div>
           </Link>
 
-          {/* Shop */}
-          <Link href="/products" className="menu-item">
-            <BuildingStorefrontIcon
-              className="menu-item-icon"
-              aria-hidden="true"
-            />
-            <div className="menu-item-text">Shop</div>
+          {/* Learn */}
+          <Link href="/#course-structure" className="menu-item">
+            <AcademicCapIcon className="menu-item-icon" aria-hidden="true" />
+            <div className="menu-item-text">Course</div>
           </Link>
 
-          {/* Learn
-          <Link href="/articles" className="menu-item">
-            <AcademicCapIcon className="menu-item-icon" aria-hidden="true" />
-            <div className="menu-item-text">Learn</div>
-          </Link> */}
+          {/* Contact */}
+          <Link href="/#video-testimonials" className="menu-item">
+            <UserCircleIcon className="menu-item-icon" aria-hidden="true" />
+            <div className="menu-item-text">Contact</div>
+          </Link>
 
-          {/* Cart */}
+          {/* Video Testimonials */}
+          <Link href="/#video-testimonials" className="menu-item">
+            <CalendarDaysIcon className="menu-item-icon" aria-hidden="true" />
+            <div className="menu-item-text">Schedule</div>
+          </Link>
+
+          {/* Video Testimonials */}
+          <Link href="/#video-testimonials" className="menu-item">
+            <VideoCameraIcon className="menu-item-icon" aria-hidden="true" />
+            <div className="menu-item-text">Reviews</div>
+          </Link>
+
+          {/* Cart 
           <div className="menu-item">
             <div className="cart-item">
               <ShoppingBagIcon className="menu-item-icon" aria-hidden="true" />
               <span className="sr-only">Items in cart, view bag</span>
             </div>
             <div className="menu-item-text ">Cart</div>
-          </div>
+          </div>*/}
 
-          {/* Burger menu */}
+          {/* Burger menu 
           <div className="menu-item">
             <button
               type="button"
@@ -519,7 +442,7 @@ export default function Example() {
               onClick={() => setOpen(true)}
             >
               <span className="sr-only">Open menu</span>
-              <div className="relative flex h-[50px] w-[50px] transform items-center justify-center overflow-hidden rounded-full bg-neutral-50 ring-0 ring-1 ring-zinc-200/80 ring-opacity-30 transition-all duration-200 hover:ring-8 group-focus:ring-4 dark:bg-neutral-950 dark:ring-emerald-400/60">
+              <div className="relative flex h-[40px] w-[40px] transform items-center justify-center overflow-hidden rounded-full bg-neutral-50 ring-0 ring-1 ring-zinc-200/80 ring-opacity-30 transition-all duration-200 hover:ring-8 group-focus:ring-4 dark:bg-neutral-950 dark:ring-emerald-400/60">
                 <div className="flex h-[14px] w-[16px] origin-center transform flex-col justify-between overflow-hidden transition-all duration-300 group-focus:-translate-x-1.5 group-focus:rotate-180">
                   <div className="h-[2px] w-8 origin-left transform bg-emerald-600 transition-all delay-150 duration-300 group-focus:w-2/3 group-focus:rotate-[42deg] dark:bg-white"></div>
                   <div className="h-[2px] w-8 transform rounded bg-emerald-600 transition-all duration-300 group-focus:translate-x-10 dark:bg-white"></div>
@@ -527,7 +450,7 @@ export default function Example() {
                 </div>
               </div>
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
