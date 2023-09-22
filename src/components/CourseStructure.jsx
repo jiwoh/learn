@@ -80,7 +80,7 @@ export function CourseStructure() {
     >
       <div className="max-w-2xl px-4 mx-auto lg:max-w-none lg:px-0">
         <div className="max-w-3xl">
-          <h2 id="features-heading" className="">
+          <h2 id="course-structure" className="">
             Course Structure
           </h2>
           <p className="mt-4 text-slate-500 dark:text-slate-200">

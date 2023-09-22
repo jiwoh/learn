@@ -60,8 +60,8 @@ export function VideoTestimonials() {
     setActiveCard(card)
   }
   return (
-    <div className="relative isolate overflow-hidden bg-slate-100 py-24 sm:py-32">
-      <div className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center">
+    <div id="video-testimonials" className="relative py-24 overflow-hidden isolate bg-slate-100 sm:py-32" >
+      <div className="absolute inset-0 object-cover object-right w-full h-full -z-10 md:object-center">
         <Image
           src="https://images.unsplash.com/photo-1573164574397-dd250bc8a598?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=1920&h=1080&q=80&blend=222827&sat=-20&exp=15&blend-mode=multiply"
           alt=""
@@ -88,16 +88,16 @@ export function VideoTestimonials() {
           }}
         />
       </div>
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:mx-0">
+      <div className="px-6 mx-auto max-w-7xl lg:px-8">
+        <div className="max-w-2xl mx-auto lg:mx-0">
           <h2 className="">What our students are saying</h2>
           <p className="mt-6 text-lg leading-8 text-gray-300"></p>
         </div>
-        <div className="mx-auto mt-16 grid max-w-2xl grid-cols-2 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-4 lg:gap-8">
+        <div className="grid max-w-2xl grid-cols-2 gap-6 mx-auto mt-16 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-4 lg:gap-8">
           {cards.map((card) => (
             <div
               key={card.name}
-              className="flex flex-col gap-4 rounded-xl bg-white/5 p-4 ring-1 ring-inset ring-white/10"
+              className="flex flex-col gap-4 p-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10"
             >
               <div className="relative" onClick={() => openModal(card)}>
                 <Image
@@ -105,15 +105,15 @@ export function VideoTestimonials() {
                   alt={card.name}
                   height="300"
                   width="600"
-                  className="h-full w-full cursor-pointer rounded-xl transition-opacity duration-200 ease-in-out hover:opacity-80"
+                  className="w-full h-full transition-opacity duration-200 ease-in-out cursor-pointer rounded-xl hover:opacity-80"
                 />
-                <span className="absolute bottom-2 right-2 rounded-md bg-gray-950 px-1 text-xs text-white">
+                <span className="absolute px-1 text-xs text-white rounded-md bottom-2 right-2 bg-gray-950">
                   {card.video_duration}
                 </span>
               </div>
               <div className="flex gap-x-4">
                 <card.icon
-                  className="h-7 w-5 flex-none text-indigo-400"
+                  className="flex-none w-5 text-indigo-400 h-7"
                   aria-hidden="true"
                 />
                 <div className="text-xl leading-7">
@@ -138,7 +138,7 @@ export function VideoTestimonials() {
               </Transition.Child>
 
               <div className="fixed inset-0 overflow-y-auto">
-                <div className="flex min-h-full items-center justify-center p-4 text-center">
+                <div className="flex items-center justify-center min-h-full p-4 text-center">
                   <Transition.Child
                     as={Fragment}
                     enter="ease-out duration-300"
@@ -148,7 +148,7 @@ export function VideoTestimonials() {
                     leaveFrom="opacity-100 scale-100"
                     leaveTo="opacity-0 scale-95"
                   >
-                    <Dialog.Panel className="w-full max-w-2xl transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
+                    <Dialog.Panel className="w-full max-w-2xl p-6 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
                       <Dialog.Title
                         as="h3"
                         className="text-lg font-medium leading-6 text-gray-900"
@@ -163,7 +163,7 @@ export function VideoTestimonials() {
                           onClick={closeModal}
                         >
                           <span className="sr-only">Close</span>
-                          <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                          <XMarkIcon className="w-6 h-6" aria-hidden="true" />
                         </button>
                       </div>
                       <div className="mt-4">
@@ -176,7 +176,7 @@ export function VideoTestimonials() {
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen
-                            className="aspect-video w-full"
+                            className="w-full aspect-video"
                           ></iframe>
                         )}
                       </div>
