@@ -389,7 +389,7 @@ export default function Example() {
         </header>
       </div>
       {/* Mobile navbar with icons */}
-      <div className="shadow-top fixed bottom-0 left-1/2 z-50 w-[100%] -translate-x-1/2  bg-white bg-opacity-70 px-4 py-1 ring-1 ring-neutral-200/60 backdrop-blur-lg backdrop-filter dark:bg-[#1d1c20] dark:bg-opacity-70 dark:ring-neutral-600/40 md:hidden">
+      <div className="shadow-top fixed bottom-0 left-1/2 z-50 w-[100%] -translate-x-1/2  bg-white bg-opacity-70 px-4 py-2.5 ring-1 ring-neutral-200/60 backdrop-blur-lg backdrop-filter dark:bg-[#1d1c20] dark:bg-opacity-70 dark:ring-neutral-600/40 md:hidden">
         <div className="flex items-center justify-between w-full gap-4">
           <div>
             <ModeToggle />
