@@ -25,7 +25,7 @@ export function HomeVideoHero() {
       <div className="absolute top-0 left-0 z-0 w-full h-full bg-neutral-950/75"></div>
 
       <div className="... z-10 mx-auto -mt-52 max-w-4xl space-y-4  px-2 py-2 text-center sm:py-8 md:space-x-6 md:px-0 lg:-mt-32 lg:space-y-8 lg:py-6 ">
-        <h1 data-aos="fade-up" className="mt-4 text-[min(14vw,4.5rem)] font-bold leading-none tracking-tight">
+        <h1 data-aos="fade-up" className="mt-4 text-[min(14vw,4.2rem)] font-bold leading-none tracking-tight">
           <span className="... bg-gradient-to-br from-blue-100 via-slate-200 to-amber-100 bg-clip-text text-transparent ">
             Level up your tech career to 6-figures and beyond with
             CyberSecurity.
