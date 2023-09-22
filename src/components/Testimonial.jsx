@@ -19,7 +19,7 @@ const testimonials = [
       {
         body: 'This course is amazing. John teaches you everything you need to know and gives amazing ongoing support even after the course is finished. I recommend to anyone.',
         author: {
-          name: 'Brad Chadson',
+          name: 'Brad',
           handle: 'INFOSEC Compliance Specialist',
           imageUrl:
             'https://images.unsplash.com/photo-1579983926774-399a9cb765c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
@@ -31,7 +31,7 @@ const testimonials = [
       {
         body: 'If you are looking for a career path in cyber security, LEARNCYBA is the training school you need. The staff is professional, and they will make sure you succeed.',
         author: {
-          name: 'Almoctar Djibo',
+          name: 'Almoctar',
           handle: 'PCI-DSS Compliance Analyst',
           imageUrl:
             'https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
@@ -45,7 +45,7 @@ const testimonials = [
       {
         body: 'Excellent and very thorough in their trainings. I highly recommend Learncyba.',
         author: {
-          name: 'Life With Monighs',
+          name: 'Monighs',
           handle: 'Security Compliance Manager',
           imageUrl:
             'https://images.unsplash.com/photo-1611432579402-7037e3e2c1e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
@@ -57,7 +57,7 @@ const testimonials = [
       {
         body: 'Amazing customer service. I’m so grateful I found John and his staff',
         author: {
-          name: 'Love Jones',
+          name: 'Jones',
           handle: 'IT Security-Compliance Controls Assessor',
           imageUrl:
             'https://images.unsplash.com/photo-1507152832244-10d45c7eda57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
