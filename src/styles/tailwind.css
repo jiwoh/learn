@@ -13,9 +13,10 @@
 
 @layer components {
   h2 {
-    @apply  text-[min(14vw,4.0rem)] font-bold leading-none tracking-tight text-blue-700 bg-gradient-to-br from-[#3B82F6] via-indigo-500 to-blue-700 bg-clip-text text-transparent;
+    @apply bg-gradient-to-br from-[#3B82F6] via-indigo-500 to-blue-700 bg-clip-text text-[min(14vw,3.8rem)] font-bold leading-none tracking-tight text-blue-700 text-transparent;
   }
 }
+
 
 .shadow-top {
   filter: drop-shadow(0 -4px 3px rgb(0 0 0 / 0.07))
@@ -23,10 +24,9 @@
 }
 
 .text-shadow {
-  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-             0px 8px 13px rgba(0,0,0,0.1),
-             0px 18px 23px rgba(0,0,0,0.1);
-             }
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+}
 
 .name {
   -webkit-scrollbar-display: none !important;

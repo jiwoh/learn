@@ -37,7 +37,7 @@ const faqs = [
 
 export function FAQ() {
   return (
-    <div className="py-8 mx-2 mx-auto max-w-7xl">
+    <div className="px-4 py-8 mx-auto max-w-7xl lg">
         <div className="max-w-6xl mx-auto divide-y divide-zinc-900/10">
           <h2
             id="faqs"

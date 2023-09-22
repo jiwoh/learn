@@ -12,7 +12,7 @@ import { InboxIcon, SparklesIcon } from '@heroicons/react/24/outline'
 
 export function PlanVision() {
   return (
-    <section aria-labelledby="features-heading" className="mx-auto max-w-7xl">
+    <section aria-labelledby="features-heading" className="mx-auto max-w-7xl md:px-8">
       <div className="relative pt-16 pb-32 overflow-hidden ">
         <div className="relative">
           <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 ">
