@@ -19,9 +19,9 @@ function SocialLink({ className, href, children, icon: Icon }) {
     <li className={clsx(className, 'flex')}>
       <Link
         href={href}
-        className="group flex text-sm font-medium text-zinc-800 transition hover:text-emerald-500 dark:text-zinc-200 dark:hover:text-emerald-500"
+        className="flex text-sm font-medium transition group text-zinc-800 hover:text-emerald-500 dark:text-zinc-200 dark:hover:text-emerald-500"
       >
-        <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-emerald-500" />
+        <Icon className="flex-none w-6 h-6 transition fill-zinc-500 group-hover:fill-emerald-500" />
         <span className="ml-4">{children}</span>
       </Link>
     </li>
@@ -49,10 +49,10 @@ export default function Privacy() {
           content="LearnCyba Inc.'s Cancellation and Refund Policy for Online Courses allows customers to receive a full refund if they cancel their course booking within 14 calendar days of order confirmation and before the course starts. Any cancellations or refunds outside this period are subject to the policy's terms and conditions, and no refunds are provided if the course has commenced or if course materials have been accessed during the cancellation period."
         />
       </Head>
-      <section className="mx-auto mt-4 max-w-7xl px-4 md:mt-8 lg:px-8">
+      <section className="px-4 mx-auto mt-4 max-w-7xl md:mt-8 lg:px-8">
         <div className="grid grid-cols-1">
           <div className="pb-8 lg:order-first lg:row-span-2 lg:pb-16">
-            <h1 className="prose-headings pb-8 text-neutral-950 dark:text-zinc-100 sm:text-4xl">
+            <h1 className="pb-8 prose-headings text-neutral-950 dark:text-zinc-100 sm:text-4xl">
               This Privacy Policy describes Our policies and procedures on the
               collection, use and disclosure of Your information when You use
               the Service and tells You about Your privacy rights and how the
@@ -60,7 +60,7 @@ export default function Privacy() {
               the Service. By using the Service, You agree to the collection and
               use of information in accordance with this Privacy Policy.
             </h1>
-            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+            <div className="mt-6 text-base space-y-7 text-zinc-600 dark:text-zinc-400">
               <h2 className="text-2xl text-zinc-800 dark:text-zinc-200">
                 Interpretation and Definitions
               </h2>
@@ -71,26 +71,26 @@ export default function Privacy() {
                 they appear in singular or in plural.
               </p>
             </div>
-            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+            <div className="mt-6 text-base space-y-7 text-zinc-600 dark:text-zinc-400">
               <h2 className="text-2xl text-zinc-800 dark:text-zinc-200">
                 Definitions
               </h2>
-              <ul className="list-disc pl-4 text-base font-normal tracking-tighter text-zinc-600 dark:text-zinc-200">
+              <ul className="pl-4 text-base font-normal tracking-tighter list-disc text-zinc-600 dark:text-zinc-200">
                 <li>
                   Account means a unique account created for You to access our
                   Service or parts of our Service.
                 </li>
                 <li>
                   Affiliate means an entity that controls, is controlled by or
-                  is under common control with a party, where "control" means
+                  is under common control with a party, where &quot;control&quot; means
                   ownership of 50% or more of the shares, equity interest or
                   other securities entitled to vote for election of directors or
                   other managing authority.
                 </li>
                 <li>
-                  Company (referred to as either "the Company", "We", "Us" or
-                  "Our" in this Agreement) refers to Learncyba Inc., 2950 NORTH
-                  LOOP W STE 500 HOUSTON, TX 77092.
+                Company (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or
+&quot;Our&quot; in this Agreement) refers to Learncyba Inc., 2950 NORTH
+LOOP W STE 500 HOUSTON, TX 77092.
                 </li>
                 <li>
                   Cookies are small files that are placed on Your computer,
@@ -133,7 +133,7 @@ export default function Privacy() {
                 </li>
               </ul>
             </div>
-            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+            <div className="mt-6 text-base space-y-7 text-zinc-600 dark:text-zinc-400">
               <h2 className="text-2xl text-zinc-800 dark:text-zinc-200">
                 Types of Data Collected
               </h2>
@@ -144,7 +144,7 @@ export default function Privacy() {
                 information may include, but is not limited to: Email address
                 First name and last name Usage Data Usage Data Usage Data is
                 collected automatically when using the Service. Usage Data may
-                include information such as Your Device's Internet Protocol
+                include information such as Your Device&apos;s Internet Protocol
                 address (e.g. IP address), browser type, browser version, the
                 pages of our Service that You visit, the time and date of Your
                 visit, the time spent on those pages, unique device identifiers
@@ -175,7 +175,7 @@ export default function Privacy() {
                 pages or opened an email and for other related website
                 statistics (for example, recording the popularity of a certain
                 section and verifying system and server integrity). Cookies can
-                be "Persistent" or "Session" Cookies. Persistent Cookies remain
+                be &quot;Persistent&quot; or &quot;Session&quot; Cookies. Persistent Cookies remain
                 on Your personal computer or mobile device when You go offline,
                 while Session Cookies are deleted as soon as You close Your web
                 browser. Learn more about cookies on the Privacy Policies
@@ -202,7 +202,7 @@ export default function Privacy() {
                 Privacy Policy.
               </p>
             </div>
-            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+            <div className="mt-6 text-base space-y-7 text-zinc-600 dark:text-zinc-400">
               <h2 className="text-2xl text-zinc-800 dark:text-zinc-200">
                 Use of Your Personal Data
               </h2>
@@ -218,7 +218,7 @@ export default function Privacy() {
                 services You have purchased or of any other contract with Us
                 through the Service. To contact You: To contact You by email,
                 telephone calls, SMS, or other equivalent forms of electronic
-                communication, such as a mobile application's push notifications
+                communication, such as a mobile application&apos;s push notifications
                 regarding updates or informative communications related to the
                 functionalities, products or contracted services, including the
                 security updates, when necessary or reasonable for their
@@ -260,7 +260,7 @@ export default function Privacy() {
                 personal information for any other purpose with Your consent.
               </p>
             </div>
-            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+            <div className="mt-6 text-base space-y-7 text-zinc-600 dark:text-zinc-400">
               <h2 className="text-2xl text-zinc-800 dark:text-zinc-200">
                 Retention of Your Personal Data
               </h2>
@@ -279,13 +279,13 @@ export default function Privacy() {
                 periods.{' '}
               </p>
             </div>
-            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+            <div className="mt-6 text-base space-y-7 text-zinc-600 dark:text-zinc-400">
               <h2 className="text-2xl text-zinc-800 dark:text-zinc-200">
                 Transfer of Your Personal Data
               </h2>
               <p className="text-base font-normal tracking-tighter text-zinc-600 dark:text-zinc-200">
                 Your information, including Personal Data, is processed at the
-                Company's operating offices and in any other places where the
+                Company operating offices and in any other places where the
                 parties involved in the processing are located. It means that
                 this information may be transferred to — and maintained on —
                 computers located outside of Your state, province, country or
@@ -301,7 +301,7 @@ export default function Privacy() {
                 personal information.{' '}
               </p>
             </div>
-            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+            <div className="mt-6 text-base space-y-7 text-zinc-600 dark:text-zinc-400">
               <h2 className="text-2xl text-zinc-800 dark:text-zinc-200">
                 Delete Your Personal Data
               </h2>
@@ -319,7 +319,7 @@ export default function Privacy() {
                 have a legal obligation or lawful basis to do so.{' '}
               </p>
             </div>
-            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+            <div className="mt-6 text-base space-y-7 text-zinc-600 dark:text-zinc-400">
               <h2 className="text-2xl text-zinc-800 dark:text-zinc-200">
                 Disclosure of Your Personal Data
               </h2>
@@ -345,9 +345,9 @@ export default function Privacy() {
                 Personal Data, We cannot guarantee its absolute security.{' '}
               </p>
             </div>
-            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+            <div className="mt-6 text-base space-y-7 text-zinc-600 dark:text-zinc-400">
               <h2 className="text-2xl text-zinc-800 dark:text-zinc-200">
-                Children's Privacy
+                Child Privacy
               </h2>
               <p className="text-base font-normal tracking-tighter text-zinc-600 dark:text-zinc-200">
                 Our Service does not address anyone under the age of 13. We do
@@ -359,25 +359,25 @@ export default function Privacy() {
                 verification of parental consent, We take steps to remove that
                 information from Our servers. If We need to rely on consent as a
                 legal basis for processing Your information and Your country
-                requires consent from a parent, We may require Your parent's
+                requires consent from a parent, We may require Your parental
                 consent before We collect and use that information.{' '}
               </p>
             </div>
-            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+            <div className="mt-6 text-base space-y-7 text-zinc-600 dark:text-zinc-400">
               <h2 className="text-2xl text-zinc-800 dark:text-zinc-200">
                 Links to Other Websites
               </h2>
               <p className="text-base font-normal tracking-tighter text-zinc-600 dark:text-zinc-200">
                 Our Service may contain links to other websites that are not
                 operated by Us. If You click on a third party link, You will be
-                directed to that third party's site. We strongly advise You to
+                directed to that third party site. We strongly advise You to
                 review the Privacy Policy of every site You visit. We have no
                 control over and assume no responsibility for the content,
                 privacy policies or practices of any third party sites or
                 services.{' '}
               </p>
             </div>
-            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+            <div className="mt-6 text-base space-y-7 text-zinc-600 dark:text-zinc-400">
               <h2 className="text-2xl text-zinc-800 dark:text-zinc-200">
                 Changes to this Privacy Policy
               </h2>
@@ -386,7 +386,7 @@ export default function Privacy() {
                 notify You of any changes by posting the new Privacy Policy on
                 this page. We will let You know via email and/or a prominent
                 notice on Our Service, prior to the change becoming effective
-                and update the "Last updated" date at the top of this Privacy
+                and update the &quot;Last updated&quot; date at the top of this Privacy
                 Policy. You are advised to review this Privacy Policy
                 periodically for any changes. Changes to this Privacy Policy are
                 effective when they are posted on this page.{' '}
