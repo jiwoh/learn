@@ -287,7 +287,7 @@ export default function Example() {
                             />
                           </div>
                           <div className="ml-2">
-                            <span className="bg-gradient-to-r  text-xl font-[200] text-white ">
+                            <span className="bg-gradient-to-r  text-xl font-[200] text-neutral-950 dark:text-white ">
                               <strong>Learn</strong> Cyba
                             </span>
                           </div>
