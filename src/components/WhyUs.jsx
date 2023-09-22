@@ -37,20 +37,17 @@ const cards = [
 
 export function WhyUs() {
   return (
-    <section
-      aria-labelledby="whyus"
-      className="py-4 mx-auto max-w-7xl"
-    >
-      <div className="relative py-24 overflow-hidden isolate rounded-2xl">
-        <div className="w-full h-full p-2 ">
-            <Image
-                src="https://images.unsplash.com/photo-1604933762021-54a5858c9832?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1746&q=80&blend=677777&sat=-10&exp=10&blend-mode=multiply"
-                alt=""
-                layout="fill"
-                objectFit="cover"
-                objectPosition="right"
-                className="absolute inset-0 rounded-2xl bg-black/10 md:object-center -z-10"
-            />
+    <section aria-labelledby="whyus" className="mx-auto max-w-7xl py-4">
+      <div className="relative isolate overflow-hidden rounded-2xl py-24">
+        <div className="h-full w-full p-2 ">
+          <Image
+            src="https://images.unsplash.com/photo-1604933762021-54a5858c9832?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1746&q=80&blend=677777&sat=-10&exp=10&blend-mode=multiply"
+            alt=""
+            layout="fill"
+            objectFit="cover"
+            objectPosition="right"
+            className="absolute inset-0 -z-10 rounded-2xl bg-black/10 md:object-center"
+          />
         </div>
         <div className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl">
           <div
@@ -70,32 +67,32 @@ export function WhyUs() {
             }}
           />
         </div>
-        <div className="px-6 mx-auto max-w-7xl lg:px-8">
-          <div className="max-w-2xl mx-auto lg:mx-0">
-            <h2 className="... text-[min(14vw,3.5rem)] font-bold leading-none tracking-tight text-blue-700 ... bg-gradient-to-br from-amber-100 via-slate-100 to-blue-100 bg-clip-text text-transparent">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl lg:mx-0">
+            <h2 className="... ... bg-gradient-to-br from-amber-100 via-slate-100 to-blue-100 bg-clip-text text-[min(14vw,3.5rem)] font-bold leading-none tracking-tight text-blue-700 text-transparent">
               Why Learners Choose Us
             </h2>
-            <p className="mt-6 text-lg leading-8 text-slate-100">
+            <p className="mt-6 text-lg leading-8 text-zinc-100">
               We offer comprehensive, career-focused programs that equip you
               with foundational skills and the ability to apply your knowledge
               to real-world situations.
             </p>
           </div>
-          <div className="grid max-w-2xl grid-cols-1 gap-6 mx-auto mt-16 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
+          <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
             {cards.map((card) => (
               <div
                 key={card.name}
-                className="flex p-6 gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/50 backdrop-blur-md"
+                className="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/50 backdrop-blur-md"
               >
                 <card.icon
-                  className="flex-none w-5 text-amber-100 h-7"
+                  className="h-7 w-5 flex-none text-amber-100"
                   aria-hidden="true"
                 />
                 <div className="text-base leading-7">
-                  <h3 className="text-xl font-semibold text-white text-amber-300">
+                  <h3 className="text-xl font-semibold text-amber-300 text-white">
                     {card.name}
                   </h3>
-                  <p className="mt-2 text-slate-300">{card.description}</p>
+                  <p className="mt-2 text-zinc-300">{card.description}</p>
                 </div>
               </div>
             ))}

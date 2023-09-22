@@ -60,7 +60,10 @@ export function VideoTestimonials() {
     setActiveCard(card)
   }
   return (
-    <div id="video-testimonials" className="relative py-24 overflow-hidden isolate bg-slate-100 sm:py-32" >
+    <div
+      id="video-testimonials"
+      className="relative py-24 overflow-hidden isolate bg-slate-100 sm:py-32"
+    >
       <div className="absolute inset-0 object-cover object-right w-full h-full -z-10 md:object-center">
         <Image
           src="https://images.unsplash.com/photo-1573164574397-dd250bc8a598?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=1920&h=1080&q=80&blend=222827&sat=-20&exp=15&blend-mode=multiply"
@@ -90,8 +93,8 @@ export function VideoTestimonials() {
       </div>
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto lg:mx-0">
-          <h2 className="">What our students are saying</h2>
-          <p className="mt-6 text-lg leading-8 text-gray-300"></p>
+          <h2 className="text-white">What our students are saying</h2>
+          <p className="mt-6 text-lg leading-8 text-zinc-300"></p>
         </div>
         <div className="grid max-w-2xl grid-cols-2 gap-6 mx-auto mt-16 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-4 lg:gap-8">
           {cards.map((card) => (
@@ -151,7 +154,7 @@ export function VideoTestimonials() {
                     <Dialog.Panel className="w-full max-w-2xl p-6 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
                       <Dialog.Title
                         as="h3"
-                        className="text-lg font-medium leading-6 text-gray-900"
+                        className="text-lg font-medium leading-6 text-zinc-900"
                       >
                         {activeCard && activeCard.name}
                       </Dialog.Title>
@@ -159,7 +162,7 @@ export function VideoTestimonials() {
                       <div className="absolute right-6 top-6">
                         <button
                           type="button"
-                          className="text-gray-400 hover:text-gray-500"
+                          className="text-zinc-400 hover:text-zinc-500"
                           onClick={closeModal}
                         >
                           <span className="sr-only">Close</span>

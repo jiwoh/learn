@@ -75,8 +75,8 @@ export function Testimonial() {
   return (
     <div className="">
       <section
-        aria-labelledby="liquid-culture-steps"
-        className="py-32 mx-auto max-w-7xl sm:px-2"
+        aria-labelledby="testimonials"
+        className="py-8 mx-auto max-w-7xl sm:px-2"
       >
         <div className="relative pt-24 pb-32 isolate sm:pt-32">
           <div
@@ -105,14 +105,14 @@ export function Testimonial() {
           </div>
           <div className="px-6 mx-auto max-w-7xl lg:px-8">
             <div className="max-w-xl mx-auto text-center">
-              <h2 className="">Testimonials</h2>
-              <span className="mt-2 text-3xl font-semibold tracking-tight text-slate-700 dark:text-slate-100 sm:text-4xl">
+              <h2 id="testimonials" className="">Testimonials</h2>
+              <span className="mt-2 text-3xl font-semibold tracking-tight text-zinc-700 dark:text-zinc-100 sm:text-4xl">
                 We educate and transform careers.
               </span>
             </div>
-            <div className="grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 mx-auto mt-16 text-sm leading-6 text-slate-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
+            <div className="grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 mx-auto mt-16 text-sm leading-6 text-zinc-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
               <figure className="bg-white shadow-lg rounded-2xl ring-1 ring-slate-900/5 sm:col-span-2 xl:col-start-2 xl:row-end-1">
-                <blockquote className="p-6 text-lg font-semibold leading-7 tracking-tight text-slate-900 sm:p-12 sm:text-xl sm:leading-8">
+                <blockquote className="p-6 text-lg font-semibold leading-7 tracking-tight text-zinc-900 sm:p-12 sm:text-xl sm:leading-8">
                   <p>{`“${featuredTestimonial.body}”`}</p>
                 </blockquote>
                 <figcaption className="flex flex-wrap items-center px-6 py-4 border-t gap-x-4 gap-y-4 border-slate-900/10 sm:flex-nowrap">
@@ -125,7 +125,7 @@ export function Testimonial() {
                     <div className="font-semibold">
                       {featuredTestimonial.author.name}
                     </div>
-                    <div className="text-xs text-slate-600">{`@${featuredTestimonial.author.handle}`}</div>
+                    <div className="text-xs text-zinc-600">{`@${featuredTestimonial.author.handle}`}</div>
                   </div>
                   <img
                     className="flex-none w-auto h-10"
@@ -156,7 +156,7 @@ export function Testimonial() {
                           key={testimonial.author.handle}
                           className="p-6 bg-white shadow-lg rounded-2xl ring-1 ring-slate-900/5"
                         >
-                          <blockquote className="text-slate-900">
+                          <blockquote className="text-zinc-900">
                             <p>{`“${testimonial.body}”`}</p>
                           </blockquote>
                           <figcaption className="flex items-center mt-6 gap-x-4">
@@ -169,7 +169,7 @@ export function Testimonial() {
                               <div className="font-semibold">
                                 {testimonial.author.name}
                               </div>
-                              <div className="tracking-tight text-xs font-[300] leading-tight text-slate-600">{`${testimonial.author.handle}`}</div>
+                              <div className="text-xs font-[300] leading-tight tracking-tight text-zinc-600">{`${testimonial.author.handle}`}</div>
                             </div>
                           </figcaption>
                         </figure>

@@ -83,7 +83,7 @@ export function CourseStructure() {
           <h2 id="course-structure" className="">
             Course Structure
           </h2>
-          <p className="mt-4 text-slate-500 dark:text-slate-200">
+          <p className="mt-4 text-zinc-500 dark:text-zinc-200">
             The Organize modular system offers endless options for arranging
             your favorite and most used items. Keep everything at reach and in
             its place, while dressing up your workspace.
@@ -92,7 +92,7 @@ export function CourseStructure() {
 
         <Tab.Group as="div" className="mt-4">
           <div className="flex -mx-4 overflow-x-auto sm:mx-0">
-            <div className="flex-auto px-4 border-b border-slate-200 sm:px-0">
+            <div className="flex-auto px-4 border-b border-zinc-200 sm:px-0">
               <Tab.List className="flex -mb-px space-x-10">
                 {tabs.map((tab) => (
                   <Tab
@@ -101,7 +101,7 @@ export function CourseStructure() {
                       classNames(
                         selected
                           ? 'border-blue-500 text-blue-600'
-                          : 'border-transparent text-slate-500  hover:border-slate-300 hover:text-green-600 dark:text-slate-400',
+                          : 'border-transparent text-zinc-500  hover:border-zinc-300 hover:text-green-600 dark:text-zinc-400',
                         'whitespace-nowrap border-b-2 py-6 text-sm font-medium'
                       )
                     }
@@ -122,15 +122,15 @@ export function CourseStructure() {
                     className="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8"
                   >
                     <div className="mt-6 lg:col-span-5 lg:mt-0">
-                      <h3 className="text-lg font-medium text-slate-900 dark:text-slate-100 md:text-xl lg:text-2xl">
+                      <h3 className="text-lg font-medium text-zinc-900 dark:text-zinc-100 md:text-xl lg:text-2xl">
                         {feature.name}
                       </h3>
-                      <p className="mt-2 text-sm font-normal text-slate-500 dark:text-slate-200">
+                      <p className="mt-2 text-sm font-normal text-zinc-500 dark:text-zinc-200">
                         {feature.description}
                       </p>
                     </div>
                     <div className="lg:col-span-7">
-                      <div className="overflow-hidden rounded-lg aspect-h-1 aspect-w-2 bg-slate-100 sm:aspect-h-2 sm:aspect-w-5">
+                      <div className="overflow-hidden rounded-lg aspect-h-1 aspect-w-2 sm:aspect-h-2 sm:aspect-w-5">
                         <Image
                           src={feature.imageSrc}
                           alt={feature.imageAlt}

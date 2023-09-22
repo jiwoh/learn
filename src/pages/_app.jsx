@@ -47,7 +47,7 @@ export default function App({ Component, pageProps, router }) {
           <Component previousPathname={previousPathname} {...pageProps} />
         </main>
 
-        <FromTheBlog />
+        {/* <FromTheBlog /> */}
         <Footer />
         <a
           href="#backtobody"
