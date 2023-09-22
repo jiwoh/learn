@@ -80,17 +80,17 @@ export function CourseStructure() {
     >
       <div className="max-w-2xl px-4 mx-auto lg:max-w-none lg:px-0">
         <div className="max-w-3xl">
-          <h2 id="course-structure" className="">
+          <h2 data-aos="fade-up" id="course-structure" className="">
             Course Structure
           </h2>
-          <p className="mt-4 text-zinc-500 dark:text-zinc-200">
+          <p data-aos="fade-down" className="mt-4 text-zinc-500 dark:text-zinc-200">
             The Organize modular system offers endless options for arranging
             your favorite and most used items. Keep everything at reach and in
             its place, while dressing up your workspace.
           </p>
         </div>
 
-        <Tab.Group as="div" className="mt-4">
+        <Tab.Group data-aos="fade-up" as="div" className="mt-4">
           <div className="flex -mx-4 overflow-x-auto sm:mx-0">
             <div className="flex-auto px-4 border-b border-zinc-200 sm:px-0">
               <Tab.List className="flex -mb-px space-x-10">
@@ -130,7 +130,9 @@ export function CourseStructure() {
                       </p>
                     </div>
                     <div className="lg:col-span-7">
-                      <div className="overflow-hidden rounded-lg aspect-h-1 aspect-w-2 sm:aspect-h-2 sm:aspect-w-5">
+                      <div 
+                      data-aos="zoom-in"
+                      className="overflow-hidden rounded-lg aspect-h-1 aspect-w-2 sm:aspect-h-2 sm:aspect-w-5">
                         <Image
                           src={feature.imageSrc}
                           alt={feature.imageAlt}

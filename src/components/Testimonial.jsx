@@ -105,23 +105,23 @@ export function Testimonial() {
           </div>
           <div className="px-6 mx-auto max-w-7xl lg:px-8">
             <div className="max-w-xl mx-auto text-center">
-              <h2 id="testimonials" className="">Testimonials</h2>
-              <span className="mt-2 text-3xl font-semibold tracking-tight text-zinc-700 dark:text-zinc-100 sm:text-4xl">
+              <h2 data-aos="fade-up" id="testimonials" className="">Testimonials</h2>
+              <span data-aos="fade-down" className="mt-2 text-3xl font-semibold tracking-tight text-zinc-700 dark:text-zinc-100 sm:text-4xl">
                 We educate and transform careers.
               </span>
             </div>
             <div className="grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 mx-auto mt-16 text-sm leading-6 text-zinc-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
-              <figure className="bg-white shadow-lg rounded-2xl ring-1 ring-slate-900/5 sm:col-span-2 xl:col-start-2 xl:row-end-1">
+              <figure data-aos="fade-up" className="bg-white shadow-lg rounded-2xl ring-1 ring-slate-900/5 sm:col-span-2 xl:col-start-2 xl:row-end-1">
                 <blockquote className="p-6 text-lg font-semibold leading-7 tracking-tight text-zinc-900 sm:p-12 sm:text-xl sm:leading-8">
                   <p>{`“${featuredTestimonial.body}”`}</p>
                 </blockquote>
-                <figcaption className="flex flex-wrap items-center px-6 py-4 border-t gap-x-4 gap-y-4 border-slate-900/10 sm:flex-nowrap">
+                <figcaption data-aos="fade-down" className="flex flex-wrap items-center px-6 py-4 border-t gap-x-4 gap-y-4 border-slate-900/10 sm:flex-nowrap">
                   <img
                     className="flex-none w-10 h-10 rounded-full bg-slate-50"
                     src={featuredTestimonial.author.imageUrl}
                     alt=""
                   />
-                  <div className="flex-auto">
+                  <div  className="flex-auto">
                     <div className="font-semibold">
                       {featuredTestimonial.author.name}
                     </div>
@@ -153,6 +153,7 @@ export function Testimonial() {
                     >
                       {column.map((testimonial) => (
                         <figure
+                          data-aos="fade-down"
                           key={testimonial.author.handle}
                           className="p-6 bg-white shadow-lg rounded-2xl ring-1 ring-slate-900/5"
                         >

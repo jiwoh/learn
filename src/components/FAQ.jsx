@@ -40,12 +40,13 @@ export function FAQ() {
     <div className="px-4 py-8 mx-auto max-w-7xl md:pt-16 md:px-8">
         <div className="mx-auto divide-y max-w-7xl divide-zinc-900/10">
           <h2
+            data-aos="fade-up"
             id="faqs"
             className=""
           >
             Frequently Asked Questions
           </h2>
-          <dl className="mt-10 space-y-6 divide-y divide-zinc-900/10">
+          <dl data-aos="fade-up" className="mt-10 space-y-6 divide-y divide-zinc-900/10 ">
             {faqs.map((faq) => (
               <Disclosure as="div" key={faq.question} className="pt-6">
                 {({ open }) => (

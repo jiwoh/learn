@@ -74,7 +74,7 @@ export function ContactUs() {
             <p className="mt-6 text-lg leading-8 text-gray-300"></p>
           </div>
           <div id="contact-us" className="grid max-w-2xl grid-cols-1 gap-6 mx-auto mt-16 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
-            <div className="flex p-6 gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
+            <div className="flex p-6 backdrop-blur-xl gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
               <PhoneIcon
                 className="flex-none w-5 text-zinc-50 h-7"
                 aria-hidden="true"
@@ -100,7 +100,7 @@ export function ContactUs() {
                 </p>
               </div>
             </div>
-            <div className="flex p-6 gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
+            <div className="flex p-6 backdrop-blur-xl gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
               <LifebuoyIcon
                 className="flex-none w-5 text-zinc-50 h-7"
                 aria-hidden="true"
@@ -119,7 +119,7 @@ export function ContactUs() {
                 </p>
               </div>
             </div>
-            <div className="flex p-6 gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
+            <div className="flex p-6 backdrop-blur-xl gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
               <BuildingOffice2Icon
                 className="flex-none w-5 text-zinc-50 h-7"
                 aria-hidden="true"

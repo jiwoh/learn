@@ -317,10 +317,10 @@ export default function Example() {
                             <Link
                               key={page.name}
                               href={page.href}
-                              className="flex items-center text-base font-medium transition-colors duration-200 ease-in-ease-out text-zinc-700 hover:scale-110 hover:text-emerald-600 dark:text-zinc-50 hover:dark:text-emerald-400"
+                              className="flex items-center text-base font-medium transition-colors duration-200 ease-in-ease-out text-zinc-700 hover:scale-110 hover:text-blue-600 dark:text-zinc-50 hover:dark:text-blue-400"
                             >
                               {page.icon && (
-                                <page.icon className="w-5 h-5 mr-2 text-emerald-600 hover:scale-125 dark:text-emerald-600" />
+                                <page.icon className="w-5 h-5 mr-2 text-rose-600 hover:scale-110" />
                               )}
                               {page.name}
                             </Link>

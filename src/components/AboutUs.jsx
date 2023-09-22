@@ -65,10 +65,10 @@ function classNames(...classes) {
 }
 export function AboutUs() {
   return (
-    <section aria-labelledby="whyus" className="py-16 mx-auto max-w-7xl">
+    <section aria-labelledby="whyus" className="mx-auto max-w-7xl py-16">
       <div className="relative isolate ">
         <div
-          className="absolute inset-x-0 overflow-hidden -translate-y-1/2 top-1/2 -z-10 transform-gpu opacity-30 blur-3xl"
+          className="absolute inset-x-0 top-1/2 -z-10 -translate-y-1/2 transform-gpu overflow-hidden opacity-30 blur-3xl"
           aria-hidden="true"
         >
           <div
@@ -80,7 +80,7 @@ export function AboutUs() {
           />
         </div>
         <div
-          className="absolute inset-x-0 top-0 flex pt-32 overflow-hidden opacity-25 -z-10 transform-gpu blur-3xl sm:pt-40 xl:justify-end"
+          className="absolute inset-x-0 top-0 -z-10 flex transform-gpu overflow-hidden pt-32 opacity-25 blur-3xl sm:pt-40 xl:justify-end"
           aria-hidden="true"
         >
           <div
@@ -93,31 +93,39 @@ export function AboutUs() {
         </div>
 
         <main className="isolate">
-
-          
-          
           {/* Content section */}
-          <div className="px-6 mx-auto mt-12 max-w-7xl sm:mt-0 lg:px-8 xl:mt-8">
-            <div className="max-w-2xl mx-auto lg:mx-0 lg:max-w-none">
-              <h2 className="">Our Vision</h2>
-              <div className="flex flex-col mt-6 gap-x-8 gap-y-20 lg:flex-row">
+          <div className="mx-auto mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:mt-8">
+            <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
+              <h2 data-aos="fade-up" className="">
+                Our Vision
+              </h2>
+              <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
                 <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
-                  <p className="text-xl leading-8 text-zinc-600 dark:text-zinc-100">
+                  <p
+                    data-aos="fade-up"
+                    className="text-xl leading-8 text-zinc-600 dark:text-zinc-100"
+                  >
                     We strive to provide our students with the highest quality
                     information security education available through our
                     cybersecurity training program.
                   </p>
                   <div className="mt-8">
-                    <h3 className="... ... bg-gradient-to-br from-[#3B82F6] via-indigo-500 to-blue-700 bg-clip-text  text-[min(14vw,3.0rem)] font-bold leading-none tracking-tight text-blue-700 text-transparent">
+                    <h3
+                      data-aos="fade-up"
+                      className="... ... bg-gradient-to-br from-[#3B82F6] via-indigo-500 to-blue-700 bg-clip-text  text-[min(14vw,3.0rem)] font-bold leading-none tracking-tight text-blue-700 text-transparent"
+                    >
                       Our Plan
                     </h3>
-                    <p className="mt-4 text-lg text-zinc-500 dark:text-zinc-200">
+                    <p
+                      data-aos="fade-up"
+                      className="mt-4 text-lg text-zinc-500 dark:text-zinc-200"
+                    >
                       Our plan is to give our students a proper training to
                       become the next generation cyber leaders.
                     </p>
                   </div>
-                  <div className="pt-6 mt-8 border-t border-slate-400 dark:border-slate-200">
-                    <blockquote>
+                  <div className="mt-8 border-t border-slate-400 pt-6 dark:border-slate-200">
+                    <blockquote data-aos="zoom-in">
                       <div>
                         <p className="text-sm italic text-zinc-500 dark:text-zinc-200">
                           &ldquo;There is a plethora of information out there
@@ -132,7 +140,7 @@ export function AboutUs() {
                         <div className="flex items-center space-x-3">
                           <div className="flex-shrink-0">
                             <Image
-                              className="w-6 h-6 rounded-full"
+                              className="h-6 w-6 rounded-full"
                               src="https://images.unsplash.com/photo-1556656246-55b8f3b895d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80"
                               alt=""
                               width={1470}
@@ -154,10 +162,16 @@ export function AboutUs() {
                         key={stat.label}
                         className="flex flex-col-reverse gap-y-4"
                       >
-                        <dt className="text-base leading-7 text-zinc-600 dark:text-zinc-200">
+                        <dt
+                          data-aos="fade-up"
+                          className="text-base leading-7 text-zinc-600 dark:text-zinc-200"
+                        >
                           {stat.label}
                         </dt>
-                        <dd className="text-5xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50">
+                        <dd
+                          data-aos="fade-down"
+                          className="text-5xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50"
+                        >
                           {stat.value}
                         </dd>
                       </div>
@@ -167,8 +181,6 @@ export function AboutUs() {
               </div>
             </div>
           </div>
-
-          
 
           {/* Image section */}
           <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
@@ -200,7 +212,7 @@ export function AboutUs() {
             </dl>
           </div> */}
 
-          <div className="relative mt-32 isolate -z-10 sm:mt-48">
+          <div className="relative isolate -z-10 mt-32 sm:mt-48">
             <div className="absolute inset-x-0 top-1/2 -z-10 flex -translate-y-1/2 justify-center overflow-hidden [mask-image:radial-gradient(50%_45%_at_50%_55%,white,transparent)]">
               <svg
                 className="h-[40rem] w-[80rem] flex-none stroke-gray-200"

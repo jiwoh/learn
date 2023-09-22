@@ -4,7 +4,7 @@
         <title>John Iwoh</title>
         <link>undefined</link>
         <description>Unleash your full potential with mushroom cultivation, medicine, health, and cuisine from spores to plates with John Iwoh.</description>
-        <lastBuildDate>Fri, 22 Sep 2023 21:51:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 22 Sep 2023 22:17:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -6398,6 +6398,14 @@
             <author>info@John Iwoh.co (John Iwoh)</author>
         </item>
         <item>
+            <title><![CDATA[books & guides advance-mushroom-cultivation Rewriting the lun me koss kernel in Rust]]></title>
+            <link>undefined/articles/educational-resourses/books-and-guides/advance-mushroom-cultivation</link>
+            <guid>undefined/articles/educational-resourses/books-and-guides/advance-mushroom-cultivation</guid>
+            <pubDate>Thu, 14 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[When we released the first version of cosmOS last year, it was written in Go. Go is a wonderful programming language, but it’s been a while since I’ve seen an article on the front page of Hacker News about rewriting some important tool in Go and I see articles on there about rewriting things in Rust every single week.]]></description>
+            <author>info@John Iwoh.co (John Iwoh)</author>
+        </item>
+        <item>
             <title><![CDATA[books & guides mushroom-cultivation-forbeginners Rewriting the lun me koss kernel in Rust]]></title>
             <link>undefined/articles/educational-resourses/books-and-guides/mushroom-cultivation-forbeginners</link>
             <guid>undefined/articles/educational-resourses/books-and-guides/mushroom-cultivation-forbeginners</guid>
@@ -6406,9 +6414,9 @@
             <author>info@John Iwoh.co (John Iwoh)</author>
         </item>
         <item>
-            <title><![CDATA[books & guides advance-mushroom-cultivation Rewriting the lun me koss kernel in Rust]]></title>
-            <link>undefined/articles/educational-resourses/books-and-guides/advance-mushroom-cultivation</link>
-            <guid>undefined/articles/educational-resourses/books-and-guides/advance-mushroom-cultivation</guid>
+            <title><![CDATA[books & guides mushroom-identification Rewriting the lun me koss kernel in Rust]]></title>
+            <link>undefined/articles/educational-resourses/books-and-guides/recipes</link>
+            <guid>undefined/articles/educational-resourses/books-and-guides/recipes</guid>
             <pubDate>Thu, 14 Jul 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[When we released the first version of cosmOS last year, it was written in Go. Go is a wonderful programming language, but it’s been a while since I’ve seen an article on the front page of Hacker News about rewriting some important tool in Go and I see articles on there about rewriting things in Rust every single week.]]></description>
             <author>info@John Iwoh.co (John Iwoh)</author>
@@ -6425,14 +6433,6 @@
             <title><![CDATA[workshops-and-events mushroom-foraging-expedition Rewriting the lun me koss kernel in Rust]]></title>
             <link>undefined/articles/educational-resourses/workshops-and-events/mushroom-foraging-expedition</link>
             <guid>undefined/articles/educational-resourses/workshops-and-events/mushroom-foraging-expedition</guid>
-            <pubDate>Thu, 14 Jul 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[When we released the first version of cosmOS last year, it was written in Go. Go is a wonderful programming language, but it’s been a while since I’ve seen an article on the front page of Hacker News about rewriting some important tool in Go and I see articles on there about rewriting things in Rust every single week.]]></description>
-            <author>info@John Iwoh.co (John Iwoh)</author>
-        </item>
-        <item>
-            <title><![CDATA[books & guides mushroom-identification Rewriting the lun me koss kernel in Rust]]></title>
-            <link>undefined/articles/educational-resourses/books-and-guides/recipes</link>
-            <guid>undefined/articles/educational-resourses/books-and-guides/recipes</guid>
             <pubDate>Thu, 14 Jul 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[When we released the first version of cosmOS last year, it was written in Go. Go is a wonderful programming language, but it’s been a while since I’ve seen an article on the front page of Hacker News about rewriting some important tool in Go and I see articles on there about rewriting things in Rust every single week.]]></description>
             <author>info@John Iwoh.co (John Iwoh)</author>

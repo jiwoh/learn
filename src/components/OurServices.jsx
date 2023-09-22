@@ -78,17 +78,18 @@ export function OurServices() {
       aria-labelledby="ourservices"
       className="px-4 py-16 mx-auto max-w-7xl lg:px-8"
     >
-      <div className="max-w-2xl py-4 mx-auto lg:mx-0">
-        <h2 id="our-services" className="">
+      <div  className="max-w-2xl py-4 mx-auto lg:mx-0">
+        <h2 id="our-services" data-aos="fade-up" className="">
           Why learners choose us
         </h2>
-        <p className="mt-2 text-lg leading-8 text-zinc-700 dark:text-zinc-200">
+        <p data-aos="fade-down" className="mt-2 text-lg leading-8 text-zinc-700 dark:text-zinc-200">
           Learn how to grow your business with our expert advice.
         </p>
       </div>
       <div className="overflow-hidden divide-y divide-gray-200 shadow rounded-2xl bg-slate-200 dark:bg-zinc-900 sm:grid md:grid-cols-3 sm:gap-px sm:divide-y-0 md:gap-2">
         {actions.map((action, actionIdx) => (
           <div
+            
             key={action.title}
             className={classNames(
               actionIdx === 0
@@ -102,7 +103,7 @@ export function OurServices() {
               'group relative bg-white p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500 dark:bg-zinc-800 '
             )}
           >
-            <div>
+            <div data-aos="zoom-in-up">
               <span
                 className={classNames(
                   action.iconBackground,
@@ -110,22 +111,23 @@ export function OurServices() {
                   'inline-flex rounded-lg p-3 ring-4 ring-white dark:ring-black'
                 )}
               >
-                <action.icon className="w-6 h-6" aria-hidden="true" />
+                <action.icon  className="w-6 h-6" aria-hidden="true" />
               </span>
             </div>
             <div className="mt-8">
-              <h3 className="text-xl font-semibold leading-6 uppercase text-zinc-900 dark:text-zinc-100">
+              <h3 data-aos="fade-up" className="text-xl font-semibold leading-6 uppercase text-zinc-900 dark:text-zinc-100">
                 <a href={action.href} className="focus:outline-none">
                   {/* Extend touch target to entire panel */}
                   <span className="absolute inset-0" aria-hidden="true" />
                   {action.title}
                 </a>
               </h3>
-              <p className="mt-2 text-base text-zinc-700 dark:text-zinc-200">
+              <p data-aos="fade-down" className="mt-2 text-base text-zinc-700 dark:text-zinc-200">
                 {action.description}
               </p>
             </div>
             <span
+              data-aos="zoom-in-right"
               className="absolute pointer-events-none right-6 top-6 text-zinc-300 group-hover:text-zinc-400"
               aria-hidden="true"
             >

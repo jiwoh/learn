@@ -93,16 +93,23 @@ export function VideoTestimonials() {
       </div>
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="max-w-2xl mx-auto lg:mx-0">
-          <h2 className="text-white">What our students are saying</h2>
+          <h2 data-aos="fade-up" className="text-white">
+            What our students are saying
+          </h2>
           <p className="mt-6 text-lg leading-8 text-zinc-300"></p>
         </div>
         <div className="grid max-w-2xl grid-cols-2 gap-6 mx-auto mt-16 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-4 lg:gap-8">
           {cards.map((card) => (
             <div
+              data-aos="fade-up"
               key={card.name}
               className="flex flex-col gap-4 p-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10"
             >
-              <div className="relative" onClick={() => openModal(card)}>
+              <div
+                data-aos="zoom-in"
+                className="relative"
+                onClick={() => openModal(card)}
+              >
                 <Image
                   src={card.thumbnail}
                   alt={card.name}
@@ -116,11 +123,14 @@ export function VideoTestimonials() {
               </div>
               <div className="flex gap-x-4">
                 <card.icon
+                  data-aos="zoom-in"
                   className="flex-none w-5 text-indigo-400 h-7"
                   aria-hidden="true"
                 />
                 <div className="text-xl leading-7">
-                  <h3 className="font-semibold text-white">{card.name}</h3>
+                  <h3 data-aos="fade-up" className="font-semibold text-white">
+                    {card.name}
+                  </h3>
                 </div>
               </div>
             </div>
