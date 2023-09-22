@@ -16,15 +16,18 @@ function NavLink({ href, children }) {
 
 const navigation = {
   main: [
-    { name: 'Services', href: '#our-services' },
+    { name: 'Services', href: '/#our-services' },
     {
       name: 'Get Started',
       href: 'https://calendly.com/d/4sq-mpj-ktz/cybersecurity-career-advice-strategy-session',
     },
-    { name: 'Course Structure', href: '#course-structure' },
-    { name: 'Testimonials', href: '#video-testimonials' },
-    { name: 'About Us', href: '#about-us' },
-    { name: 'FAQs', href: '#faqs' },
+    { name: 'Course Structure', href: '/#course-structure' },
+    { name: 'Testimonials', href: '/#video-testimonials' },
+    { name: 'About Us', href: '/#about-us' },
+    { name: 'FAQs', href: '/#faqs' },
+    { name: 'Privacy', href: 'privacy'},
+    { name: 'Refunds', href: 'refund'},
+
   ],
   social: [
     {
@@ -42,7 +45,7 @@ const navigation = {
     },
     {
       name: 'Instagram',
-      href: '#',
+      href: 'https://www.instagram.com/john.iwoh/',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -63,8 +66,8 @@ const navigation = {
       ),
     },
     {
-      name: 'GitHub',
-      href: '#',
+      name: 'TikTok',
+      href: 'https://www.tiktok.com/@john.iwoh',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -77,7 +80,7 @@ const navigation = {
     },
     {
       name: 'YouTube',
-      href: '#',
+      href: 'https://www.youtube.com/@learncyba1887',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -94,7 +97,7 @@ const navigation = {
 export function Footer() {
   return (
     <footer className="bg-slate-100">
-      <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
+      <div className="px-6 py-20 mx-auto overflow-hidden max-w-7xl sm:py-24 lg:px-8">
         <nav
           className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
           aria-label="Footer"
@@ -110,7 +113,7 @@ export function Footer() {
             </div>
           ))}
         </nav>
-        <div className="mt-10 flex justify-center space-x-10">
+        <div className="flex justify-center mt-10 space-x-10">
           {navigation.social.map((item) => (
             <a
               key={item.name}
@@ -118,11 +121,11 @@ export function Footer() {
               className="text-gray-400 hover:text-gray-500"
             >
               <span className="sr-only">{item.name}</span>
-              <item.icon className="h-6 w-6" aria-hidden="true" />
+              <item.icon className="w-6 h-6" aria-hidden="true" />
             </a>
           ))}
         </div>
-        <p className="mt-10 text-center text-xs leading-5 text-gray-500">
+        <p className="mt-10 text-xs leading-5 text-center text-gray-500">
           &copy; {new Date().getFullYear()} LearnCyba &amp; John Iwoh. All
           Rights Reserved.
         </p>

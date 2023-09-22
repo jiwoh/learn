@@ -19,9 +19,9 @@ function SocialLink({ className, href, children, icon: Icon }) {
     <li className={clsx(className, 'flex')}>
       <Link
         href={href}
-        className="group flex text-sm font-medium text-zinc-800 transition hover:text-emerald-500 dark:text-zinc-200 dark:hover:text-emerald-500"
+        className="flex text-sm font-medium transition group text-zinc-800 hover:text-emerald-500 dark:text-zinc-200 dark:hover:text-emerald-500"
       >
-        <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-emerald-500" />
+        <Icon className="flex-none w-6 h-6 transition fill-zinc-500 group-hover:fill-emerald-500" />
         <span className="ml-4">{children}</span>
       </Link>
     </li>
@@ -43,24 +43,19 @@ export default function RefundPolicy() {
   return (
     <>
       <Head>
-        <title>Privacy - John Iwoh</title>
+        <title>Refund Policy</title>
         <meta
           name="description"
           content="This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You. We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy."
         />
       </Head>
-      <section className="mx-auto mt-4 max-w-7xl px-4 md:mt-8 lg:px-8">
+      <section className="px-4 mx-auto mt-4 max-w-7xl md:mt-8 lg:px-8">
         <div className="grid grid-cols-1">
           <div className="pb-8 lg:order-first lg:row-span-2 lg:pb-16">
-            <h1 className="prose-headings pb-8 text-neutral-950 dark:text-zinc-100 sm:text-4xl">
-              This Privacy Policy describes Our policies and procedures on the
-              collection, use and disclosure of Your information when You use
-              the Service and tells You about Your privacy rights and how the
-              law protects You. We use Your Personal data to provide and improve
-              the Service. By using the Service, You agree to the collection and
-              use of information in accordance with this Privacy Policy.
+            <h1 className="pb-8 prose-headings text-neutral-950 dark:text-zinc-100 sm:text-4xl">
+            Welcome to our Cancellation and Refund Policy for Online Courses. We understand that circumstances can change, and we want to ensure that you have a clear understanding of our policies regarding cancellations and refunds for our online courses. Whether you are considering enrolling in one of our courses or you have already made a booking, this policy outlines the terms and conditions that apply. Please take a moment to familiarize yourself with the details provided below, which will help you navigate any potential changes or cancellations to your course enrollment. Your satisfaction and understanding are of utmost importance to us, and we aim to provide you with a transparent and fair process for cancellations and refunds.
             </h1>
-            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+            <div className="mt-6 text-base space-y-7 text-zinc-600 dark:text-zinc-400">
               <h2 className="text-2xl text-zinc-800 dark:text-zinc-200">
                 Cancellation and Refund Policy for Online Courses
               </h2>
@@ -85,7 +80,7 @@ export default function RefundPolicy() {
                 learning environment), no refund will be payable.
               </p>
             </div>
-            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+            <div className="mt-6 text-base space-y-7 text-zinc-600 dark:text-zinc-400">
               <h2 className="text-2xl text-zinc-800 dark:text-zinc-200">
                 Types of Data Collected
               </h2>

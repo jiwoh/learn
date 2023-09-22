@@ -59,10 +59,12 @@ export function PlanVision() {
                   <footer className="mt-3">
                     <div className="flex items-center space-x-3">
                       <div className="flex-shrink-0">
-                        <img
+                        <Image
                           className="w-6 h-6 rounded-full"
                           src="https://images.unsplash.com/photo-1556656246-55b8f3b895d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80"
                           alt=""
+                          width={1470}
+                          height={600}
                         />
                       </div>
                       <div className="text-base font-normal text-slate-700 dark:text-slate-200">

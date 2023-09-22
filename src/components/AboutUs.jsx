@@ -84,10 +84,12 @@ export function AboutUs() {
                   )}
                 >
                   <div className="overflow-hidden rounded-lg shadow-xl aspect-h-2 aspect-w-5">
-                    <img
+                    <Image
                       src={feature.imageSrc}
                       alt={feature.imageAlt}
                       className="object-cover object-center"
+                      width={800}
+                      height={320}
                     />
                   </div>
                 </div>

@@ -131,10 +131,12 @@ export function CourseStructure() {
                     </div>
                     <div className="lg:col-span-7">
                       <div className="overflow-hidden rounded-lg aspect-h-1 aspect-w-2 bg-slate-100 sm:aspect-h-2 sm:aspect-w-5">
-                        <img
+                        <Image
                           src={feature.imageSrc}
                           alt={feature.imageAlt}
                           className="object-cover object-center"
+                          width={800}
+                          height={320}
                         />
                       </div>
                     </div>
