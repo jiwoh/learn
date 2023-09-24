@@ -24,14 +24,14 @@ export function HomeVideoHero() {
       </div>
       <div className="absolute top-0 left-0 z-0 w-full h-full bg-neutral-950/75"></div>
 
-      <div className="... z-10 mx-auto -mt-52 max-w-4xl space-y-4  px-2 py-2 text-center sm:py-8 md:space-x-6 md:px-0 lg:-mt-32 lg:space-y-8 lg:py-6 ">
-        <h1 data-aos="fade-up" className="mt-4 text-[min(14vw,4.2rem)] font-bold leading-none tracking-tight">
+      <div className="... z-10 mx-auto -mt-42 max-w-4xl space-y-4  px-2 py-2 text-center sm:py-8 md:space-x-6 md:px-0 lg:-mt-32 lg:space-y-8 lg:py-6 ">
+        <h1 data-aos="fade-up" className="mt-4 text-4xl sm:text-[min(14vw,4.2rem)] font-bold leading-none tracking-tight">
           <span className="... bg-gradient-to-br from-blue-100 via-slate-200 to-amber-100 bg-clip-text text-transparent ">
             Level up your tech career to 6-figures and beyond with
             CyberSecurity.
           </span>
         </h1>
-        <p data-aos="fade-down" className="max-w-4xl py-6 mx-auto text-xl leading-normal text-center sm:px-6 text-zinc-200 md:px-12">
+        <p data-aos="fade-down" className="max-w-4xl py-6 mx-auto text-lg leading-normal text-center md:text-xl sm:px-6 text-zinc-200 md:px-12">
           Start your new career as a Cybersecurity Compliance Specialist and
           earn 6-figures in about 6 months. There are no certifications, degrees, or coding
           required.
