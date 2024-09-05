@@ -7,7 +7,7 @@ import { getProductsDataByCategory } from '@/lib/productsData'
 const heroInfo = {
   title: 'We are changing the way people live, heal and grow.',
   description:
-    'Unlock the world of mushrooms at John Iwoh. From cultivation, cuisine, health, and medicine, we are passionate about all things fungi. Embark today on an extraordinary journey of growth and wonder. Start your mushroom adventure with us today.',
+    'Unlock the world of mushrooms at . From cultivation, cuisine, health, and medicine, we are passionate about all things fungi. Embark today on an extraordinary journey of growth and wonder. Start your mushroom adventure with us today.',
   primaryAction: {
     text: 'Get Started',
     href: '#',

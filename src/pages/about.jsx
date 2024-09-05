@@ -43,7 +43,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - John Iwoh</title>
+        <title>About - </title>
         <meta
           name="description"
           content="Our mission is to share transformative properties of mushrooms and fungi, unlocking your full potential in the human experience."
@@ -69,9 +69,9 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                At John Iwoh, we believe that including mushrooms and fungi as
-                part of a balanced diet has the potential to transform lives by
-                improving health and well-being. Join us on a journey of growth,
+                At , we believe that including mushrooms and fungi as part of a
+                balanced diet has the potential to transform lives by improving
+                health and well-being. Join us on a journey of growth,
                 discovery, and revitalization as we share and teach the
                 countless benefits of the remarkable Fungi kingdom through
                 cultivation, cuisine, health, and medicine.
@@ -81,8 +81,8 @@ export default function About() {
                 guide you on your mushroom cultivation path.
               </p>
               <p>
-                <em>Thank you</em> for choosing John Iwoh as your go-to source
-                for all things mushroom-related.{' '}
+                <em>Thank you</em> for choosing as your go-to source for all
+                things mushroom-related.{' '}
                 <strong>Let&apos;s start growing!</strong>
               </p>
             </div>
@@ -111,11 +111,11 @@ export default function About() {
                 Follow on YouTube
               </SocialLink>
               <SocialLink
-                href="mailto:info@John Iwoh.co"
+                href="mailto:info@.co"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                info@John Iwoh.co
+                info@.co
               </SocialLink>
             </ul>
           </div>

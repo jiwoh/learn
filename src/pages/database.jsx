@@ -21,7 +21,7 @@ export default function Database({ glossary }) {
   return (
     <div className="overflow-hidden">
       <Head>
-        <title>Edible Mushroom Strains - John Iwoh</title>
+        <title>Edible Mushroom Strains - </title>
         <meta
           name="description"
           content="Embark on a captivating journey through the edible mushroom kingdom, encountering the magnificent Lion's Mane, delicate Enoki, and striking Chicken of the Woods mushrooms, each offering unique appearances, flavors, and textures that elevate culinary creations and celebrate the marvels of nature's bounty.

@@ -128,7 +128,7 @@ export function Footer() {
           ))}
         </div>
         <p className="mt-10 text-xs leading-5 text-center text-zinc-500">
-          &copy; {new Date().getFullYear()} LearnCyba &amp; John Iwoh. All
+          &copy; {new Date().getFullYear()} LearnCyba - All
           Rights Reserved.
         </p>
       </div>

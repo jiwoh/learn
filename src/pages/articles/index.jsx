@@ -45,14 +45,14 @@ export default function ArticlesIndex({ articles, categories }) {
   return (
     <>
       <Head>
-        <title>Articles - John Iwoh</title>
+        <title>Articles - </title>
         <meta
           name="description"
           content="Products and resources for mushroom cultivation, including liquid culture and mushroom jar lids."
         />
       </Head>
       <SimpleLayout
-        title="At John Iwoh, we offer a range of products and resources for mushroom cultivation, including liquid culture, mushroom jar lids."
+        title="At , we offer a range of products and resources for mushroom cultivation, including liquid culture, mushroom jar lids."
         intro="Our offerings are perfect for both beginners and experienced cultivators. Discover the many benefits of mushroom cultivation, from culinary exploration to health and medicine. Join us on a journey of growth, discovery, and revitalization through the wonders of the Fungi kingdom."
       >
         <div className="relative pt-12 lg:grid lg:grid-cols-3 lg:gap-x-8 xl:grid-cols-4">

@@ -37,7 +37,7 @@ export default function ProductsPage() {
   return (
     <>
       <Head>
-        <title>John Iwoh</title>
+        <title></title>
       </Head>
       <Container className="bg-zinc-100 dark:bg-neutral-900">
         <div className="">

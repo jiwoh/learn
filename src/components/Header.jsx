@@ -49,7 +49,7 @@ const navigation = {
           subtitle: 'Rep your squad with merchandise',
           href: '/products/category/merch',
           imageSrc: '/images/mainmenu/merch.webp',
-          imageAlt: 'John Iwoh Merchandise.',
+          imageAlt: ' Merchandise.',
         },
       ],
     },
@@ -293,7 +293,7 @@ export default function Example() {
                           <div>
                             <Image
                               src="/images/learncyba_ring.webp"
-                              alt="Learn Cyba - John Iwoh"
+                              alt="Learn Cyba - "
                               width="221"
                               height="50"
                               className="inline-block h-9 w-9"
@@ -305,7 +305,7 @@ export default function Example() {
                             </span>
                           </div>
                         </div>
-                        <span className="sr-only">LearnCyba - John Iwoh</span>
+                        <span className="sr-only">LearnCyba - </span>
                       </Link>
                     </div>
 
@@ -345,7 +345,7 @@ export default function Example() {
 
                     {/* Logo (lg-) */}
                     <Link href="/" className="md:hidden">
-                      <span className="sr-only">John Iwoh</span>
+                      <span className="sr-only"></span>
                       <Image
                         src="/images/_avatar.webp"
                         alt="mobile logo Real Mush"
