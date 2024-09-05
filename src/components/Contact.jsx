@@ -73,10 +73,13 @@ export function ContactUs() {
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300"></p>
           </div>
-          <div id="contact-us" className="grid max-w-2xl grid-cols-1 gap-6 mx-auto mt-16 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
-            <div className="flex p-6 backdrop-blur-xl gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
+          <div
+            id="contact-us"
+            className="grid max-w-2xl grid-cols-1 gap-6 mx-auto mt-16 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8"
+          >
+            <div className="flex p-6 gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10 backdrop-blur-xl">
               <PhoneIcon
-                className="flex-none w-5 text-zinc-50 h-7"
+                className="flex-none w-5 h-7 text-zinc-50"
                 aria-hidden="true"
               />
               <div className="text-base leading-7">
@@ -84,11 +87,11 @@ export function ContactUs() {
                   Get the conversation started
                 </h3>
                 <p className="mt-2 text-gray-300">
-                    <a
+                  <a
                     className="text-white hover:text-blue-300"
                     href="tel:+12819914244"
                   >
-                    +1 (281) 991-4244
+                    +1 (281) 849-9845
                   </a>
                   <br />
                   <a
@@ -100,9 +103,9 @@ export function ContactUs() {
                 </p>
               </div>
             </div>
-            <div className="flex p-6 backdrop-blur-xl gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
+            <div className="flex p-6 gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10 backdrop-blur-xl">
               <LifebuoyIcon
-                className="flex-none w-5 text-zinc-50 h-7"
+                className="flex-none w-5 h-7 text-zinc-50"
                 aria-hidden="true"
               />
               <div className="text-base leading-7">
@@ -119,9 +122,9 @@ export function ContactUs() {
                 </p>
               </div>
             </div>
-            <div className="flex p-6 backdrop-blur-xl gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
+            <div className="flex p-6 gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10 backdrop-blur-xl">
               <BuildingOffice2Icon
-                className="flex-none w-5 text-zinc-50 h-7"
+                className="flex-none w-5 h-7 text-zinc-50"
                 aria-hidden="true"
               />
               <div className="text-base leading-7">
