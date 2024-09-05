@@ -127,7 +127,7 @@ export function ContactUs() {
               <div className="text-base leading-7">
                 <h3 className="font-semibold text-yellow-300">Address</h3>
                 <p className="mt-2 text-gray-300">
-                  17350 TX-249 STE 220 #14755,
+                  17350 State Highway 249, STE 220 #14755,
                   <br />
                   Houston, TX 77064
                 </p>
